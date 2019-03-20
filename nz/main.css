@@ -1,6 +1,7 @@
 body{
     max-width: 1200px;
     margin: auto;
+    font-family: "Roboto";
 }
 header{
     text-align: center;
@@ -32,4 +33,33 @@ header h4{
 }
 address a {
     color: gray;
+}
+main{
+    width: 70%;
+    margin: auto;
+}
+main figure {
+    /*strg k und strg c für ein und ausschalten von Anweisungen
+    */
+    margin-left: 0;
+}
+main figcaption{
+    float: left;
+    margin-left: -12em;
+    width: 11.5em;
+}
+main figure img {
+    width: 90%;
+
+}
+#map {
+    height: 360px;
+    width: 90%;
+    border: 1px solid black;
+}
+.back {
+    float: left;
+}
+.next{
+    float: right;
 }

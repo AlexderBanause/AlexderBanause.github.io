@@ -1,0 +1,76 @@
+body{
+    max-width: 1200px;
+    margin: auto;
+    font-family: "Roboto";
+}
+header{
+    text-align: center;
+    background-image: url("images/punakaiki-1716073_1280.jpg";
+    background-position: 0 21%;
+}
+
+header h2{
+    font-size: 4em;
+    margin: 0;
+    padding: 1em 0;
+   
+}
+header h3 {
+    font-size: 2em;
+    color: white;
+    margin: 0;
+}
+header h4{
+    font-size: 0.75em;
+}
+.author {
+    text-align: center;
+}
+.author img {
+    border: 4px solid white;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+address a {
+    color: gray;
+}
+main{
+    width: 70%;
+    margin: auto;
+}
+main figure {
+    /*strg k und strg c für ein und ausschalten von Anweisungen
+    */
+    margin-left: 0;
+}
+main figcaption{
+    float: left;
+    margin-left: -12em;
+    width: 11.5em;
+    color: red;
+}
+main figure img {
+    width: 90%;
+
+}
+#map {
+    height: 360px;
+    width: 90%;
+    border: 1px solid black;
+}
+.back {
+    float: left;
+}
+.next{
+    float: right;
+}
+footer {
+    padding: 1em 0 3em 0;
+}
+@media only screen and (max-width: 900px){
+    main figure figcaption{
+        float: none;
+        margin-left: 0;
+        width: auto;
+    }
+}

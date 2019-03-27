@@ -18,10 +18,10 @@ let karte = L.map("map");
 
 //aus Ausschnitt zoomen
 
-karte.setView(
+/*karte.setView(
     [47.2, 11.2],
     8
-);
+);  --> Überflüssig geworden*/ 
 
 //openstreetmap hinzufügen
 L.tileLayer("http://{s}.tile.osm.org./{z}/{x}/{y}.png").addTo(karte);
@@ -42,61 +42,19 @@ let pin2 = L.marker(
 //Popup zum Pin hängen
 pin2.bindPopup(titel2).openPopup();
 
-const blick1 = {
-    kunde: "Wilder Kaiser",
-    standort: "Gruttenhütte",
-    seehoehe: 1640,
-    lat: 47.55564,
-    lng: 12.31861
-};
-let pin3 = L.marker(
-    [blick1.lat, blick1.lng]
-).addTo(karte);
-pin3.bindPopup(
-    `<h1>Standort ${blick1.standort}</h>
-    <p>Höhe: ${blick1.seehoehe}m</p>
-    <em>Kunde:${blick1.kunde}</em>`
-);
+let blickeGruppe = L.featureGroup().addTo(karte);
 
-const blick2 = {
-    kunde: "Bergbahn Scheffau",
-    standort: "Brandstadl",
-    seehoehe: 1640,
-    lat: 47.48333,
-    lng: 12.248
-};
-let pin4 = L.marker(
-    [blick2.lat, blick2.lng]
-).addTo(karte);
-pin4.bindPopup(
-    `<h1>Standort ${blick2.standort}</h>
-       <p>Höhe: ${blick2.seehoehe}m</p>
-       <em>Kunde:${blick2.kunde}</em>`
-);
-
-const blick3 = {
-    kunde: "Lechtal Tourismus",
-    standort: "Sonnalm Jöchelspitze",
-    seehoehe: 1786,
-    lat: 47.27528,
-    lng: 10.36505
-};
-let pin5 = L.marker(
-    [blick3.lat, blick3.lng]
-).addTo(karte);
-pin5.bindPopup(
-    `<h1>Standort ${blick3.standort}</h>
-       <p>Höhe: ${blick3.seehoehe}m</p>
-       <em>Kunde:${blick3.kunde}</em>`
-);
-
-const adlerblicke = [
-    blick1,
-    blick2,
-    blick3
-];
-for(let blick of adlerblicke) {
+for (let blick of ADLERBLICKE) {
+    console.log(blick);
     let blickpin = L.marker(
         [blick.lat, blick.lng]
-    ).addTo(karte);
+    ).addTo(blickeGruppe);
+    blickpin.bindPopup(
+        `<h1>Standort ${blick.standort}</h>
+        <p>Höhe: ${blick.seehoehe}m</p>
+        <em>Kunde:${blick.kunde}</em>`
+    );
 }
+console.log(blickeGruppe.getBounds());
+// auf Adlerblicke zoomen
+karte.fitBounds(blickeGruppe.getBounds());

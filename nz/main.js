@@ -1,4 +1,4 @@
-alert("Hallo Welt");
+// alert("Hallo Welt");
 const div = document.getElementById("map")
 const breite = div.getAttribute("data-lat");
 const laenge = div.getAttribute("data-lng");

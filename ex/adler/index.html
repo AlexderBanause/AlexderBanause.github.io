@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Adlerweg - Von der Johannishütte zur Eisseehütte</title><!-- TODO:Titel der Etappe -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <!-- Die hier folgenden links für stylesheet von https://leafletjs.com/download.html holen-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+<script src="blicke.js"></script>
+    <script defer src="main.js"></script> <!-- "defer" einfügen, da sonst das Div vor dem anderen gelesen wird und der Browser dann den Rest nicht mehr versteht-->
+</head>
+
+<body>
+    <header>
+        <h3>Tirol</h3>
+        <h4>Von der Johannishütte zur Eisseehütte</h4>
+        <h2>Adlerweg</h2> <!-- TODO: eine Überschrift 2 mit dem Titel der Etappe -->
+    </header>
+
+    <div class="author">
+        <!-- TODO: ein div-Element mit der Klasse "author" -->
+        <img src="images/1024px-Johannishütte_mit_Gr.Venediger.jpg" alt="Johannishütte" height="150" width="200"> <br>
+        <!-- TODO: ein User-(Symbol)Bild mit 100x100 Pixel im Format JPG mit dem Namen user.jpg in einem Unterordner images/ -->
+        <address>
+            <a href="mailto:alexander.kreisel@student.uibk.ac.at">Alexander Kreisel</a><br>
+            <a href="https://AlexderBanause.github.io/index"> Github AlexderBanause</a>
+            <!-- TODO: ein address-Element mit zwei Links -->
+            <!-- TODO: ein Link auf die eigene E-Mailadresse mit dem eigenen Namen-->
+            <!-- TODO: ein Link auf den eigenen github.com Account -->
+        </address>
+    </div>
+
+    <hr />
+
+    <main>
+        <h1>Adlerweg - Sektion Osttirol</h1>
+        <h2>Von der Johannishütte zur Eisseehütte</h2> <br>
+        <!-- TODO: eine Überschrift 1 mit dem Titel der Etappe und einem kurzen "Teaser" -->
+        <p>Der Adlerweg verläuft auf 33 Etappen durch ganz Tirol. 413 Kilometer und 31.000 Höhenmeter gilt es entlang
+            der Strecke zu bewältigen. Der Weitwanderweg ist dabei in zwei Routen unterteilt: 24 Tagesetappen führen
+            quer durch die Bergwelt Nordtirols, die zweite Route durchquert auf neun Tagesetappen die Glockner- und
+            Venediger-Gruppe in Osttirol. </p>
+        <a
+            href="https://www.tirol.at/reisefuehrer/sport/wandern/wandertouren/a-adlerweg-etappe-o2-johannishuette-eisseehuette">Adlerweg
+            Etappe 02</a>
+        <!-- TODO: ein Absatz mit einem Einführungstext zur Etappe aus der Wikipedia plus einem Link auf die Wikipedia-Seite in der Form "(Quelle: Wikipedia)", das Wort "Wikipedia" als Link -->
+        <h2>Bergwelt</h2>
+        <!-- TODO: eine Überschrift 2 einer Sehenswürdigkeit der Etappe-->
+        <figure>
+            <figcaption><i class="fas fa-camera"></i><em>Der Großvenediger am Tauernkamm</em></figcaption>
+            <img src="images/1280px-ZentraleVenedigergruppe.JPG" alt="Großvenediger" height="650" width="900">
+        </figure>
+        <!-- TODO: eine vollständige Abbildung mit Bild im JPG-Format und kursiver Bildüberschrift für diese Sehenswürdigkeit. Das Bild soll attraction.jpg heißen, maximal 900 Pixel breit oder hoch sein und im Ordner images/ liegen. Das Bild soll von https://commons.wikimedia.org/ oder https://pixabay.com/ stammen und eine Public Domain, oder CC BY-SA Lizenz besitzen. -->
+        <p>Weiter durch die faszinierende Bergwelt: Von der Johannishütte geht es Richtung Kreuzspitz-Höhenweg, anfangs
+            durch satte grüne Matten, später durch felsiges Gelände. In diesem Bereich könnte man auch einen Abstecher
+            auf die „Kreuzspitze“, mit ihrem atemberaubenden Blick auf den Großvenediger wagen. Die super Linienführung
+            und die tollen Ausblicke auf die benachbarten Gletscherberge belohnen für den langen Zustieg. Der Adlerweg
+            führt jedoch weiter zur Sajathütte, dem „Schloss in den Bergen“. Das Etappenziel – die einfachere, aber
+            ebenfalls gemütliche Eisseehütte – liegt allerdings noch ein gutes Stück entfernt. </p>
+        <a 
+            href="https://www.tirol.at/reisefuehrer/sport/wandern/wandertouren/a-adlerweg-etappe-o2-johannishuette-eisseehuette">Offizielle
+            Website</a>
+        <!-- TODO: ein Absatz mit der Beschreibung der Sehenswürdigkeit aus der Wikipedia plus einem Link auf die Wikipedia-Seite in der Form "(Quelle: Wikipedia)", das Wort "Wikipedia" als Link -->
+
+        <h3>Übersichtskarte</h3>
+        <div id="map" data-lat1="47.059977" data-lng1="12.334396" data-title1="Johannishütte" data-lat2="47.055278" data-lng2="12.378889" data-title2="Eisseehütte">
+        </div>
+        <!-- TODO: ein div-Element mit dem id-Attribut "map" und drei weiteren Attributen data-lat, data-lng und data-title. Die Koordinaten von data-lat und data-lng sind als Dezimalgrad mit einem "." als Komma zu schreiben und aus der Wikipedia zu entnehmen. Das data-title Attribut enthält einen Titel für die oben verwendete Sehenswürdigkeit
+        -->
+
+        <h3>Links</h3>
+        <ul>
+            <li><a href="https://www.tirol.at/reisefuehrer/sport/wandern/adlerweg"> Adlerweg</a></li>
+            <li><a
+                    href="https://www.alpenverein-muenchen-oberland.de/johannishuette">
+                    Johannishütte</a></li>
+            <li><a href="http://www.eisseehuette.at/">Eisseehütte</a></li>
+            <li><a
+                    href="https://www.tirol.at/reisefuehrer/sport/wandern/wandertouren/a-adlerweg-etappe-o2-johannishuette-eisseehuette">Adlerweg - Etappe 02</a></li>
+        </ul>
+        <!-- TODO: 4 Links zu Seiten im Netz die zur Etappe/Sehenswürdigkeit passen als ungeordnete Liste -->
+
+    </main>
+
+    <hr />
+
+    <footer>
+        <nav>
+            <a class="back" href="https://elleluk.github.io/adler/index.html"><i class="fas fa-arrow-left"></i>back</a>
+            <a class="next" href="https://alexhoefner.github.io/adler/index.html"></i>next<i
+                    class="fas fa-arrow-right"></i></a>
+            <!-- TODO: ein nav-Element mit zwei Links auf die vorherige Etappe und die nächste Etappe mit den Klassen "back" und "next" sowie den Link-Texten "vorhergehender Stop" und "nächster Stop". Die Links verweisen auf die entsprechenden Etappen in der Form https://username.github.io/nz/index.html -->
+
+        </nav>
+    </footer>
+
+</body>
+
+</html>

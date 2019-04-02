@@ -5,12 +5,13 @@ body{
 }
 header{
     text-align: center;
-    background-image: url("images/punakaiki-1716073_1280.jpg");
+    background-image: url("images/Panorama_vom_Kleinhansl_in_den_Wölzer_Tauern.jpg");
     background-position: 0 21%;
 }
 
 header h2{
     font-size: 4em;
+    color: white;
     margin: 0;
     padding: 1em 0;
    

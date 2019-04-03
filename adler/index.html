@@ -10,11 +10,20 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <!-- Die hier folgenden links für stylesheet von https://leafletjs.com/download.html holen-->
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
-<script src="blicke.js"></script>
-    <script defer src="main.js"></script> <!-- "defer" einfügen, da sonst das Div vor dem anderen gelesen wird und der Browser dann den Rest nicht mehr versteht-->
+    <!-- Die hier folgenden links für stylesheet von https://leafletjs.com/download.html holen-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="blicke.js"></script>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'
+        rel='stylesheet' />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-hash/0.2.1/leaflet-hash.js"></script>
+
+    <link href="plugins/Control.Coordinates.css" rel="stylesheet">
+    <script src="plugins/Control.Coordinates.js"></script>
+
+    <script defer src="main.js"></script>
+    <!-- "defer" einfügen, da sonst das Div vor dem anderen gelesen wird und der Browser dann den Rest nicht mehr versteht-->
 </head>
 
 <body>
@@ -64,13 +73,14 @@
             und die tollen Ausblicke auf die benachbarten Gletscherberge belohnen für den langen Zustieg. Der Adlerweg
             führt jedoch weiter zur Sajathütte, dem „Schloss in den Bergen“. Das Etappenziel – die einfachere, aber
             ebenfalls gemütliche Eisseehütte – liegt allerdings noch ein gutes Stück entfernt. </p>
-        <a 
+        <a
             href="https://www.tirol.at/reisefuehrer/sport/wandern/wandertouren/a-adlerweg-etappe-o2-johannishuette-eisseehuette">Offizielle
             Website</a>
         <!-- TODO: ein Absatz mit der Beschreibung der Sehenswürdigkeit aus der Wikipedia plus einem Link auf die Wikipedia-Seite in der Form "(Quelle: Wikipedia)", das Wort "Wikipedia" als Link -->
 
         <h3>Übersichtskarte</h3>
-        <div id="map" data-lat1="47.059977" data-lng1="12.334396" data-title1="Johannishütte" data-lat2="47.055278" data-lng2="12.378889" data-title2="Eisseehütte">
+        <div id="map" data-lat1="47.059977" data-lng1="12.334396" data-title1="Johannishütte" data-lat2="47.055278"
+            data-lng2="12.378889" data-title2="Eisseehütte">
         </div>
         <!-- TODO: ein div-Element mit dem id-Attribut "map" und drei weiteren Attributen data-lat, data-lng und data-title. Die Koordinaten von data-lat und data-lng sind als Dezimalgrad mit einem "." als Komma zu schreiben und aus der Wikipedia zu entnehmen. Das data-title Attribut enthält einen Titel für die oben verwendete Sehenswürdigkeit
         -->
@@ -78,12 +88,12 @@
         <h3>Links</h3>
         <ul>
             <li><a href="https://www.tirol.at/reisefuehrer/sport/wandern/adlerweg"> Adlerweg</a></li>
-            <li><a
-                    href="https://www.alpenverein-muenchen-oberland.de/johannishuette">
+            <li><a href="https://www.alpenverein-muenchen-oberland.de/johannishuette">
                     Johannishütte</a></li>
             <li><a href="http://www.eisseehuette.at/">Eisseehütte</a></li>
             <li><a
-                    href="https://www.tirol.at/reisefuehrer/sport/wandern/wandertouren/a-adlerweg-etappe-o2-johannishuette-eisseehuette">Adlerweg - Etappe 02</a></li>
+                    href="https://www.tirol.at/reisefuehrer/sport/wandern/wandertouren/a-adlerweg-etappe-o2-johannishuette-eisseehuette">Adlerweg
+                    - Etappe 02</a></li>
         </ul>
         <!-- TODO: 4 Links zu Seiten im Netz die zur Etappe/Sehenswürdigkeit passen als ungeordnete Liste -->
 
@@ -93,9 +103,11 @@
 
     <footer>
         <nav>
-            <a class="back" href="https://elleluk.github.io/adler/index.html"><i class="fas fa-arrow-left"></i>back</a>
-            <a class="next" href="https://alexhoefner.github.io/adler/index.html"></i>next<i
+            <a class="back" href="https://elleluk.github.io/adler/index.html"><i class="fas fa-arrow-left"></i>vorherige
+                Etappe</a>
+            <a class="next" href="https://alexhoefner.github.io/adler/index.html"></i>nächste Etappe<i
                     class="fas fa-arrow-right"></i></a>
+
             <!-- TODO: ein nav-Element mit zwei Links auf die vorherige Etappe und die nächste Etappe mit den Klassen "back" und "next" sowie den Link-Texten "vorhergehender Stop" und "nächster Stop". Die Links verweisen auf die entsprechenden Etappen in der Form https://username.github.io/nz/index.html -->
 
         </nav>

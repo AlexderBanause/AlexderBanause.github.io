@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Neuseelandreise - Pancake rocks (Punakaiki)</title><!-- TODO:Titel der Etappe -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script defer src="main.js"></script>
 </head>
-    
+
 <body>
     <header>
         <h3>Aotearoa</h3>
@@ -19,13 +23,13 @@
     </header>
 
     <div class="author">
-    <!-- TODO: ein div-Element mit der Klasse "author" -->
-    <img src="images/pancake-rocks-3290769__340.jpg" alt="Pancake Rocks" height="150" width="200"> <br>
+        <!-- TODO: ein div-Element mit der Klasse "author" -->
+        <img src="images/pancake-rocks-3290769__340.jpg" alt="Pancake Rocks" height="150" width="200"> <br>
         <!-- TODO: ein User-(Symbol)Bild mit 100x100 Pixel im Format JPG mit dem Namen user.jpg in einem Unterordner images/ -->
-      <address>
-        <a href="mailto:alexander.kreisel@student.uibk.ac.at">Alexander Kreisel</a><br>
-       <a href="https://AlexderBanause.github.io/index"> Github AlexderBanause</a>
-        <!-- TODO: ein address-Element mit zwei Links -->
+        <address>
+            <a href="mailto:alexander.kreisel@student.uibk.ac.at">Alexander Kreisel</a><br>
+            <a href="https://AlexderBanause.github.io/index"> Github AlexderBanause</a>
+            <!-- TODO: ein address-Element mit zwei Links -->
             <!-- TODO: ein Link auf die eigene E-Mailadresse mit dem eigenen Namen-->
             <!-- TODO: ein Link auf den eigenen github.com Account -->
         </address>
@@ -37,22 +41,26 @@
         <h1>Pancake Rocks</h1>
         <h2>Die schräge Sehenswürdigkeit an der Westküste</h2> <br>
         <!-- TODO: eine Überschrift 1 mit dem Titel der Etappe und einem kurzen "Teaser" -->
-        <p>Die Pancake Rocks sind eine Felsformation im Paparoa-Nationalpark auf der Südinsel Neuseelands etwa 40 Kilometer nördlich von Greymouth. <br> Direkt an der Tasmansee gelegen, sehen die Felsen aus wie übereinander geschichtete Eierkuchen, wodurch sie zu ihrem Namen kamen. </p>
+        <p>Die Pancake Rocks sind eine Felsformation im Paparoa-Nationalpark auf der Südinsel Neuseelands etwa 40
+            Kilometer nördlich von Greymouth. <br> Direkt an der Tasmansee gelegen, sehen die Felsen aus wie
+            übereinander geschichtete Eierkuchen, wodurch sie zu ihrem Namen kamen. </p>
         <a href="https://de.wikipedia.org/wiki/Pancake_Rocks">Pancakes Rocks auf Wikipedia</a>
         <!-- TODO: ein Absatz mit einem Einführungstext zur Etappe aus der Wikipedia plus einem Link auf die Wikipedia-Seite in der Form "(Quelle: Wikipedia)", das Wort "Wikipedia" als Link -->
         <h2>Blowholes</h2>
         <!-- TODO: eine Überschrift 2 einer Sehenswürdigkeit der Etappe-->
         <figure>
-        <figcaption><i class="fas fa-camera"></i><em>Wasser wird durch Verengungen gedrückt</em></figcaption>
-        <img src="images/attraction.jpg" alt="Blowholes" height="650" width="900">
+            <figcaption><i class="fas fa-camera"></i><em>Wasser wird durch Verengungen gedrückt</em></figcaption>
+            <img src="images/attraction.jpg" alt="Blowholes" height="650" width="900">
         </figure>
         <!-- TODO: eine vollständige Abbildung mit Bild im JPG-Format und kursiver Bildüberschrift für diese Sehenswürdigkeit. Das Bild soll attraction.jpg heißen, maximal 900 Pixel breit oder hoch sein und im Ordner images/ liegen. Das Bild soll von https://commons.wikimedia.org/ oder https://pixabay.com/ stammen und eine Public Domain, oder CC BY-SA Lizenz besitzen. -->
-        <p>Das Wasser der Brandung bricht sich an den zahlreichen Felsnasen, in Höhlen und Ausspülungen und drückt zurückfließendes Wasser und <br> durchströmende Luft durch enge Löcher und Röhren im Felsen, was oberhalb der Felsen als Blowholes sicht- und durch starkes Zischen in der Luft hörbar wird. </p>
+        <p>Das Wasser der Brandung bricht sich an den zahlreichen Felsnasen, in Höhlen und Ausspülungen und drückt
+            zurückfließendes Wasser und <br> durchströmende Luft durch enge Löcher und Röhren im Felsen, was oberhalb
+            der Felsen als Blowholes sicht- und durch starkes Zischen in der Luft hörbar wird. </p>
         <a href="https://de.wikipedia.org/wiki/Pancake_Rocks">Wikipedia</a>
         <!-- TODO: ein Absatz mit der Beschreibung der Sehenswürdigkeit aus der Wikipedia plus einem Link auf die Wikipedia-Seite in der Form "(Quelle: Wikipedia)", das Wort "Wikipedia" als Link -->
 
         <h3>Übersichtskarte</h3>
-        <div id="map" data-lat="-42.10841" data-lng="171.33631" data-title="Pankcake Rocks">
+        <div id="map" data-lat="-42.11421" data-lng="171.3271" data-title="Pankcake Rocks">
         </div>
         <!-- TODO: ein div-Element mit dem id-Attribut "map" und drei weiteren Attributen data-lat, data-lng und data-title. Die Koordinaten von data-lat und data-lng sind als Dezimalgrad mit einem "." als Komma zu schreiben und aus der Wikipedia zu entnehmen. Das data-title Attribut enthält einen Titel für die oben verwendete Sehenswürdigkeit
         -->
@@ -60,9 +68,13 @@
         <h3>Links</h3>
         <ul>
             <li><a href="https://de.wikipedia.org/wiki/Paparoa-Nationalpark"> Paparoa-Nationalpark</a></li>
-            <li><a href="https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/paparoa-national-park/things-to-do/tracks/truman-track/"> Truman Track</a></li>
+            <li><a
+                    href="https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/paparoa-national-park/things-to-do/tracks/truman-track/">
+                    Truman Track</a></li>
             <li><a href="https://www.newzealand.com/de/feature/pororari-river-track/">Pororari River Track</a></li>
-            <li><a href="https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/paparoa-national-park/things-to-do/tracks/punakaiki-cavern/">Punakaiki Cavern</a></li>
+            <li><a
+                    href="https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/paparoa-national-park/things-to-do/tracks/punakaiki-cavern/">Punakaiki
+                    Cavern</a></li>
         </ul>
         <!-- TODO: 4 Links zu Seiten im Netz die zur Etappe/Sehenswürdigkeit passen als ungeordnete Liste -->
 
@@ -72,10 +84,12 @@
 
     <footer>
         <nav>
-        <a class="back" href="https://oeggl.github.io/nz/index.html"><i class="fas fa-arrow-left"></i>back</a>
-        <a class="next" href="https://leoniewae.github.io/nz/index.html"></i>next<i class="fas fa-arrow-right"></i></a>
-        <!-- TODO: ein nav-Element mit zwei Links auf die vorherige Etappe und die nächste Etappe mit den Klassen "back" und "next" sowie den Link-Texten "vorhergehender Stop" und "nächster Stop". Die Links verweisen auf die entsprechenden Etappen in der Form https://username.github.io/nz/index.html -->
-        
+            <a class="back" href="https://oeggl.github.io/nz/index.html"><i class="fas fa-arrow-left"></i>vorherige
+                Seite</a>
+            <a class="next" href="https://leoniewae.github.io/nz/index.html"></i>nächste Seite<i
+                    class="fas fa-arrow-right"></i></a>
+            <!-- TODO: ein nav-Element mit zwei Links auf die vorherige Etappe und die nächste Etappe mit den Klassen "back" und "next" sowie den Link-Texten "vorhergehender Stop" und "nächster Stop". Die Links verweisen auf die entsprechenden Etappen in der Form https://username.github.io/nz/index.html -->
+
         </nav>
     </footer>
 

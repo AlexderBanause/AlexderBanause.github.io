@@ -13,7 +13,7 @@ const titel2 = div.getAttribute("data-title2");
 
 
 let karte = L.map("map");
-
+// L. steht für die Leaflet Seite
 //console.log(karte);
 
 //aus Ausschnitt zoomen
@@ -21,10 +21,13 @@ let karte = L.map("map");
 /*karte.setView(
     [47.2, 11.2],
     8
-);  --> Überflüssig geworden*/ 
+);  --> Überflüssig geworden*/
 
 //openstreetmap hinzufügen
-L.tileLayer("http://{s}.tile.osm.org./{z}/{x}/{y}.png").addTo(karte);
+L.tileLayer("http://{s}.tile.osm.org./{z}/{x}/{y}.png", {
+    subdomains: ["a", "b", "c"]
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+}).addTo(karte);
 
 // 1. Positionsmarker hinzufügen
 let pin1 = L.marker(

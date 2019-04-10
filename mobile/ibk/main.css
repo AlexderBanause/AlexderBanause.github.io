@@ -1,0 +1,9 @@
+body{
+    max-width: 1200px;
+    margin: auto;
+    font-family: "Roboto";
+}
+#map{
+    width: 100vw;
+    height: 100vh;
+}

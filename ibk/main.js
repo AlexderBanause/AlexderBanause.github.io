@@ -4,7 +4,7 @@ let karte = L.map("map");
     [47, 11],
     13
 );*/
-
+//dieses
 //openstreetmap hinzufügen
 L.tileLayer("http://{s}.tile.osm.org./{z}/{x}/{y}.png").addTo(karte);
 

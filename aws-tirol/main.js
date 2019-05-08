@@ -81,15 +81,31 @@ karte.setView(
 );
 
 
-//console.log(AWS); (jetzt nicht mehr wichtig, war nur zur überprüfung)
-const awsTirol = L.featureGroup();
-L.geoJson(AWS)
-    .bindPopup(function(layer){
-        console.log("Layer: ", layer);
-        return `Temperatur: ${layer.feature.properties.LT}°C <br>
-        Datum: ${layer.feature.properties.date}`;
-    })
-    .addTo(awsTirol);
+//console.log(AWS);
 
-awsTirol.addTo(karte);
-karte.fitBounds(awsTirol.getBounds());
+async function loadStations() {
+    const response = await fetch("https://aws.openweb.cc/stations");
+    const stations = await response.json();
+    const awsTirol = L.featureGroup();
+    L.geoJson(stations)
+        .bindPopup(function(layer){
+            //console.log("Layer: ", layer);
+            const date = new Date(layer.feature.properties.date);
+            console.log("Datum: ", date);
+            return `<h4> ${layer.feature.properties.name}</h4>
+            Höhe (m): ${layer.feature.geometry.coordinates[2]}<br>
+            Temperatur: ${layer.feature.properties.LT}°C <br>
+            Datum: ${date.toLocaleDateString("de-AT")}
+            ${date.toLocaleTimeString("de-AT")}`;
+        })
+        .addTo(awsTirol);
+    
+    awsTirol.addTo(karte);
+    karte.fitBounds(awsTirol.getBounds());
+}
+loadStations();
+
+
+
+
+//console.log(AWS); (jetzt nicht mehr wichtig, war nur zur überprüfung)

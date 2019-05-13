@@ -85,6 +85,7 @@ async function loadStations() {
         Temperatur: ${layer.feature.properties.LT} °C <br>
         Datum: ${date.toLocaleDateString("de-AT")} <br> 
         Zeit: ${date.toLocaleTimeString("de-AT")} <br>
+        Relative Feuchte: ${layer.feature.properties.RH} <br>
         Windgeschwindigkeit: ${layer.feature.properties.WG ? layer.feature.properties.WG + ' km/h': 'keine Daten'}
         <hr>
         <footer>Land Tirol - <a href=https://data.tiro.gv.at>data.tirol.at</a></footer>`;
@@ -220,7 +221,7 @@ async function loadStations() {
                         break;
                     }
                 }
-
+              
 
                 // if (feature.properties.LT > 0) {
                 //    color = `red`;

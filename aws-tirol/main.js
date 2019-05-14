@@ -95,7 +95,28 @@ async function loadStations() {
     layerControl.addOverlay(awsTirol, "Wetterstationen Tirol");
 
 
+
     const windLayer = L.featureGroup();
+    const farbPalette = [
+        [48, "#EEE"],
+
+        [64, "#DDD"],
+
+        [80, "#C6C9CE"],
+
+        [97, "#BBB"],
+
+        [113, "#AAC"],
+
+        [129, "#9998DD"],
+
+        [145, "#8788EE"],
+
+        [161, "#7677E1"]
+
+    ]
+
+
     L.geoJson(stations, {
         pointToLayer: function (feature, latlng) {
             if (feature.properties.WR) {
@@ -118,97 +139,47 @@ async function loadStations() {
 
     const temperatureLayer = L.featureGroup();
     const farbpalette = [
-        [-12, "#0500ff"],
-        [-11.5, "#0400ff"],
-        [-11, "#0300ff"],
-        [-10.5, "#0200ff"],
-        [-10, "#0100ff"],
-        [-9.5, "#0000ff"],
-        [-9, "#0002ff"],
-        [-8.5, "#0012ff"],
-        [-8, "#0022ff"],
-        [-7.5, "#0032ff"],
-        [-7, "#0044ff"],
-        [-6.5, "#0054ff"],
-        [-6, "#0064ff"],
-        [-5.5, "#0074ff"],
-        [-5, "#0084ff"],
-        [-4.5, "#0094ff"],
-        [-4, "#00a4ff"],
-        [-3.5, "#00b4ff"],
-        [-3, "#00c4ff"],
-        [-2.5, "#00d4ff"],
-        [-2, "#00e4ff"],
-        [-1.5, "#00fff4"],
-        [-1, "#00ffd0"],
-        [-0.5, "#00ffa8"],
-        [0, "#00ff83"],
-        [0.5, "#00ff5c"],
-        [1, "#00ff36"],
-        [1.5, "#00ff10"],
-        [2, "#17ff00"],
-        [2.5, "#3eff00"],
-        [3, "#65ff00"],
-        [3.5, "#8aff00"],
-        [4, "#b0ff00"],
-        [4.5, "#d7ff00"],
-        [5, "#fdff00"],
-        [5.5, "#FFfa00"],
-        [6, "#FFf000"],
-        [6.5, "#FFe600"],
-        [7, "#FFdc00"],
-        [7.5, "#FFd200"],
-        [8, "#FFc800"],
-        [8.5, "#FFbe00"],
-        [9, "#FFb400"],
-        [9.5, "#FFaa00"],
-        [10, "#FFa000"],
-        [10.5, "#FF9600"],
-        [11, "#FF8c00"],
-        [11.5, "#FF8200"],
-        [12, "#FF7800"],
-        [12.5, "#FF6e00"],
-        [13, "#FF6400"],
-        [13.5, "#FF5a00"],
-        [14, "#FF5000"],
-        [14.5, "#FF4600"],
-        [15, "#FF3c00"],
-        [15.5, "#FF3200"],
-        [16, "#FF2800"],
-        [16.5, "#FF1e00"],
-        [17, "#FF1400"],
-        [17.5, "#FF0a00"],
-        [18, "#FF0000"],
-        [18.5, "#FF0010"],
-        [19, "#FF0020"],
-        [19.5, "#FF0030"],
-        [20, "#FF0040"],
-        [20.5, "#FF0050"],
-        [21, "#FF0060"],
-        [21.5, "#FF0070"],
-        [22, "#FF0080"],
-        [22.5, "#FF0090"],
-        [23, "#FF00A0"],
-        [23.5, "#FF00B0"],
-        [24, "#FF00C0"],
-        [24.5, "#FF00D0"],
-        [25, "#FF00E0"],
-        [25.5, "#FF00F0"],
-        [26, "#FF01F0"],
-        [26.5, "#FF02F0"],
-        [27, "#FF03F0"],
-        [27.5, "#FF04F0"],
-        [28, "#FF05F0"],
-        [28.5, "#FF06F0"],
-        [29, "#FF07F0"],
-        [29.5, "#FF08F0"],
-        [30, "#FF09F0"],
-        [30.5, "#FF0AF0"],
-        [31, "#FF0BF0"],
-        [31.5, "#FF0CF0"],
-        [32, "#FF0DF0"],
-        [32.5, "#FF0EF0"]
+        [-30, "#646664"],
+        [-28, "#8c8a8c"],
+        [-26, "#b4b2b4"],
+        [-24, "#cccecc"],
+        [-22, "#e4e6e4"],
+        [-20, "#772d76"],
+        [-18, "#b123b0"],
+        [-16, "#d219d1"],
+        [-14, "#f0f"],
+        [-12, "#ff94ff"],
+        [-10, "#3800d1"],
+        [-8, "#325afe"],
+        [-6, "#2695ff"],
+        [-4, "#00cdff"],
+        [-2, "#00fffe"],
+        [0, "#007800"],
+        [2, "#009d00"],
+        [4, "#00bc02"],
+        [6, "#00e200"],
+        [8, "#0f0"],
+        [10, "#fcff00"],
+        [12, "#fdf200"],
+        [14, "#fde100"],
+        [16, "#ffd100"],
+        [18, "#ffbd00"],
+        [20, "#ffad00"],
+        [22, "#ff9c00"],
+        [24, "#ff7800"],
+        [26, "red"],
+        [28, "#f30102"],
+        [30, "#d20000"],
+        [32, "#c10000"],
+        [34, "#b10000"],
+        [36, "#a10000"],
+        [38, "#900000"],
+        [40, "#770100"],
+        [42, "#5f0100"],
+        [44, "#460101"],
+        [46, "#2e0203"]
     ];
+
 
     L.geoJson(stations, {
         pointToLayer: function (feature, latlng) {
@@ -221,7 +192,7 @@ async function loadStations() {
                         break;
                     }
                 }
-              
+
 
                 // if (feature.properties.LT > 0) {
                 //    color = `red`;
@@ -238,6 +209,43 @@ async function loadStations() {
     }).addTo(temperatureLayer);
     layerControl.addOverlay(temperatureLayer, "Temperatur");
     temperatureLayer.addTo(karte);
+
+    // relative Feuchte
+    const relfeuchtelayer = L.featureGroup()
+    farbPalette = [
+        [30, "#EEE"],
+        [40, "#DDD"],
+        [50, "#C6C9CE"],
+        [60, "#BBB"],
+        [70, "#AAC"],
+        [80, "#9998DD"],
+        [90, "#8788EE"],
+        [100, "#7677E1"]
+
+    ];
+
+    L.geoJson(stations, {
+        pointToLayer: function (feature, latlng) {
+            if (feature.properties.RH) {
+                let color = farbPalette[farbPalette.length - 1][1]; //length = 8
+                for (let i = 0; i < farbPalette; i++) {
+                    if (feature.properties.RH < farbPalette[i][0]) {
+                        color = farbPalette[i][1];
+                        break;
+                    }
+
+                }
+                return L.marker(latlng, {
+                    icon: L.divIcon({
+                        html: `<div class="luftfeuchtelabel" style="background-color:${color}">${feature.properties.RH}</div>`
+                    })
+                });
+
+            }
+        }
+    }).addTo(relfeuchtelayer); //hängt das ganze an meinen templayer
+    layerControl.addOverlay(relfeuchtelayer, "relative Luffeuchte")
+    relfeuchtelayer.addTo(karte) //wird direkt angezeift
 }
 
 loadStations();

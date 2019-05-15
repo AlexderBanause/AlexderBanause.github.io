@@ -1,0 +1,343 @@
+﻿OBJECTID;Anlage;Adresse;Typ;Gruppe;X;Y;Lon;Lat
+1;Klettergarten Roßfall (ÖAV);Höttinger Alm;Klettergarten;Fitness/Klettern;78027,3711999999;240239,702500001;11,364655117;47,2963692600001
+2;Klettergarten Mühlauer Klamm;Rechenhofweg;Klettergarten;Fitness/Klettern;81906,8324999996;239776,627499999;11,415853409;47,2917330490001
+3;Klettergarten Mühlauer Klamm;Rechenhofweg;Klettergarten;Fitness/Klettern;81840,6327;239763,3136;11,41497595;47,291621558
+4;Landeshauptschießstand Arzl;Eggenwaldweg 60;Schießstand;Sonstiges;82764,4121000003;239590,996099999;11,427154455;47,2899562970001
+5;Spielplatz Arzler Schießstand;Eggenwaldweg;Fußballplatz;Fußball/Football;82583,4576000003;239529,837099999;11,4247514150001;47,289429039
+6;Spielplatz Arzler Schießstand;Eggenwaldweg;Leichtathletikanlage;Sonstiges;82578,5579000004;239501,086200001;11,424681349;47,2891710960001
+7;Fitnessparkour Fit 2000 Hungerburg;Hungerburgweg;Fitnessparkour;Fitness/Klettern;80537,1831;239217,3509;11,397648771;47,2868725610001
+8;Spielplatz Hungerburg;Gramartstraße;Sportplatz;Spielplatz;80319,8348000003;239190,5307;11,394771312;47,2866579390001
+9;Tennisplätze Hungerburg;Gramartstraße 23;Tennisplatz;Tennis/Squash;80242,8513000002;239003,210999999;11,3937202610001;47,284982744
+10;Sporthalle VS Arzl;Framsweg 19;Sporthalle;Sporthalle;82705,7038000003;239009,126499999;11,4262709540001;47,2847309110001
+11;Tennisplätze Hungerburg;Gramartstraße 23;Tennisplatz;Tennis/Squash;80225,7300000004;238995,7119;11,3934926360001;47,2849173920001
+12;Tennisplätze Hungerburg;Gramartstraße 23;Tennisplatz;Tennis/Squash;80257,8644000003;238968,8519;11,393912518;47,284671916
+13;Tennisplätze Hungerburg;Gramartstraße 23;Tennisplatz;Tennis/Squash;80240,8602;238961,417400001;11,393686454;47,284607131
+14;Sporthalle VS Mühlau;Hauptplatz 3;Sporthalle;Sporthalle;81636,3614999997;238883,886;11,4121155020001;47,2837381900001
+15;Sportplatz Mühlenweg;Mühlenweg;Sportplatz;Spielplatz;81878,4483000003;238835,2586;11,4153060100001;47,283270794
+16;Sportplatz Mühlenweg;Mühlenweg;Basketballplatz;Funsport;81849,6299000001;238833,0035;11,4149247390001;47,2832541000001
+17;Spielplatz Gramartwiese;Gramartstraße;Sportplatz;Spielplatz;78998,5367000001;238742,943399999;11,377228997;47,2827927070001
+18;Klettergarten Höttinger Steinbruch (ÖAV);Höhenstraße;Klettergarten;Fitness/Klettern;80293,7553000003;238694,272399999;11,3943376140001;47,2821982080001
+19;Spielplatz Jugendwohnheim Schwedenhaus;Rennweg 17b;Sportplatz;Spielplatz;80682,0160999997;238149,081700001;11,3993704820001;47,277247743
+20;Sportanlage BHAK/BHAS Innsbruck;Karl-Schönherr-Straße 2;Leichtathletikanlage;Sonstiges;80745,3442000002;238035,4405;11,4001868340001;47,2762179850001
+21;Sporthalle VS Neuarzl;Rotadlerstraße 10;Sporthalle;Sporthalle;83495,5307999998;237962,411699999;11,436514174;47,2752180140001
+22;Sporthalle VS Neuarzl;Rotadlerstraße 10;Sporthalle;Sporthalle;83478,3086999999;237957,295299999;11,436285652;47,2751741880001
+23;Spielplatz Schützenstraße;Schützenstraße;Sportplatz;Spielplatz;83419,5558000002;237901,607799999;11,435498936;47,27468084
+24;Spielplatz Reichenauerpromenade;Reichenauer Straße;Beachvolleyballplatz;Funsport;82756,6310999999;237913,4263;11,426741491;47,2748708300001
+25;Spielplatz Reichenauerpromenade;Reichenauer Straße;Streetballplatz;Funsport;82799,5312999999;237894,407600001;11,4273048430001;47,2746943980001
+26;Spielplatz Grüngürtel Reichenau Ost;Roßbachstraße;Sportplatz;Spielplatz;82425,5883999998;237889,7476;11,4223628400001;47,274699436
+27;Spielplatz Reichenauerpromenade;Reichenauer Straße;Skate-/Rollerbladeplatz;Funsport;82856,7561999997;237858,323999999;11,428054316;47,2743626930001
+28;Spielplatz Kärntner Park;Kärntner Straße;Sportplatz;Spielplatz;81732,1375000002;237836,65;11,4131901160001;47,2743084190001
+29;Tennisclub IEV;Reichenauer Straße 144;Tennishalle;Tennis/Squash;82685,3518000003;237831,531500001;11,42578451;47,274143307
+30;Tennisclub IEV;Reichenauer Straße 144;Tennisplatz;Tennis/Squash;82687,6913000001;237786,850099999;11,4258071730001;47,2737411910001
+31;Sportanlage NMS Reichenau;Burghard-Breitner-Straße 20-22;Sportplatz;Spielplatz;82635,9726999998;237771,8193;11,425121022;47,273612514
+32;Sportanlage NMS Reichenau;Burghard-Breitner-Straße 20-22;Leichtathletikanlage;Sonstiges;82609,2659;237773,946900001;11,4247685280001;47,2736350010001
+33;Sportanlage NMS Reichenau;Burghard-Breitner-Straße 20-22;Leichtathletikanlage;Sonstiges;82609,9533000002;237750,4849;11,424773283;47,27342392
+34;Tennisclub IEV;Reichenauer Straße 144;Tennisplatz;Tennis/Squash;82797,7282999996;237743,0381;11,427253035;47,2733333510001
+35;Tennisclub IEV;Reichenauer Straße 144;Tennisplatz;Tennis/Squash;82780,7380999997;237742,649599999;11,4270284670001;47,273331995
+36;Tennisclub IEV;Reichenauer Straße 144;Tennisplatz;Tennis/Squash;82763,7122999998;237742,2585;11,426803428;47,273330619
+37;Tennisclub IEV;Reichenauer Straße 144;Tennisplatz;Tennis/Squash;82746,6865999997;237741,8675;11,426578391;47,2733292440001
+38;Tennisclub IEV;Reichenauer Straße 144;Tennisplatz;Tennis/Squash;82729,4354999997;237741,473999999;11,426350374;47,2733278740001
+39;Spielplatz Grüngürtel Reichenau West;Gutshofweg;Sportplatz;Spielplatz;82167,3393999999;237744,073100001;11,418923701;47,273421672
+40;Sportanlage VS Saggen - Siebererschule;Siebererstraße 7;Sportplatz;Spielplatz;80986,4785000002;237728,888599999;11,403317777;47,2734314950001
+41;Sportanlage NMS Reichenau;Burghard-Breitner-Straße 20-22;Sportplatz;Spielplatz;82590,9408;237726,501399999;11,4245176430001;47,273210621
+42;Sportanlage NMS Reichenau;Burghard-Breitner-Straße 20-22;Sporthalle;Sporthalle;82636,4765999997;237735,0078;11,425120888;47,2732814030001
+43;Tennisclub IEV;Reichenauer Straße 144;Tennisplatz;Tennis/Squash;82815,1983000003;237732,843599999;11,427481986;47,273239473
+44;Tennisclub IEV;Reichenauer Straße 144;Tennisplatz;Tennis/Squash;82816,1988000004;237703,094699999;11,4274897060001;47,2729718140001
+45;Tennisclub IEV;Reichenauer Straße 144;Tennisplatz;Tennis/Squash;82799,1908;237702,427100001;11,4272648520001;47,2729679510001
+46;Tennisclub IEV;Reichenauer Straße 144;Tennisplatz;Tennis/Squash;82782,1224999996;237701,748299999;11,4270392;47,2729639930001
+47;Tennisclub IEV;Reichenauer Straße 144;Tennisplatz;Tennis/Squash;82765,1024000002;237701,0732;11,4268141850001;47,272960063
+48;Tennisclub IEV;Reichenauer Straße 144;Tennisplatz;Tennis/Squash;82748,0822999999;237700,3982;11,426589171;47,272956133
+49;Tennisclub IEV;Reichenauer Straße 144;Tennisplatz;Tennis/Squash;82731,0959999999;237699,7292;11,4263646040001;47,272952252
+50;Sportanlage NMS Reichenau;Burghard-Breitner-Straße 20-22;Sporthalle;Sporthalle;82618,0475000003;237704,664899999;11,424871782;47,2730108420001
+51;Sportanlage VS Saggen - Siebererschule;Siebererstraße 7;Sporthalle;Sporthalle;81029,5714999996;237698,148600001;11,403881621;47,273149743
+52;Schießstand Hegnerschule;Burghard-Breitner-Straße 20;Schießstandhalle;Sonstiges;82603,7970000003;237675,189099999;11,424678052;47,272747553
+53;Fußballplatz An-der-Lan-Straße;An-der-Lan-Straße;Fußballplatz;Fußball/Football;84124,4434000002;237626,1033;11,4447612540001;47,27211349
+54;Tischtennishalle Hegnerschule;Burghard-Breitner-Straße 20;Sporthalle;Sporthalle;82612,1764000002;237656,6598;11,4247853520001;47,2725798660001
+55;Kegelbahn Hegnerschule;Burghard-Breitner-Straße 20;Kegelbahn;Sporthalle;82627,5394000001;237657,626499999;11,424988523;47,2725866310001
+56;Sporthalle VS Reichenau;Wörndlestraße 3;Sporthalle;Sporthalle;82139,2744000005;237646,6468;11,4185350020001;47,2725490130001
+57;Sporthalle VS Reichenau;Wörndlestraße 3;Sporthalle;Sporthalle;82113,8776000002;237632,7469;11,4181968830001;47,2724271800001
+58;Spielplatz Grünbacherpromenade;Sepp-Grünbacher-Promenade;Sportplatz;Spielplatz;83599,1152999997;237623,455700001;11,4378196390001;47,272156625
+59;Tischtennis Verbandsraum VS Reichenau;Wörndlestraße 3;Sporthalle;Sporthalle;82120,8028999995;237609,795399999;11,4182841790001;47,272219911
+60;Spielplatz Grüner Boden;oberhalb Sadrachstraße 31;Sportplatz;Spielplatz;77973,8503;237593,033299999;11,363486643;47,2725735380001
+61;Tennis Union Turnerschaft Innsbruck;Radetzkystraße 41;Tennisplatz;Tennis/Squash;82586,0170999998;237578,082900001;11,4244252190001;47,271876503
+62;Tennis Union Turnerschaft Innsbruck;Radetzkystraße 41;Tennisplatz;Tennis/Squash;82570,0388000002;237571,590600001;11,424212902;47,2718201220001
+63;Tennis Union Turnerschaft Innsbruck;Radetzkystraße 41;Tennisplatz;Tennis/Squash;82554,0291999998;237565,0891;11,4240001700001;47,2717636620001
+64;Tennis Union Turnerschaft Innsbruck;Radetzkystraße 41;Tennishalle;Tennis/Squash;82528,9572999999;237555,4528;11,423667122;47,271680147
+65;Tennis Union Turnerschaft Innsbruck;Radetzkystraße 41;Tennishalle;Tennis/Squash;82512,6913000001;237548,8191;11,4234509790001;47,2716225290001
+66;Tennis Union Turnerschaft Innsbruck;Radetzkystraße 41;Tennisplatz;Tennis/Squash;82600,4496999998;237542,3763;11,4246093310001;47,27155358
+67;Tennis Union Turnerschaft Innsbruck;Radetzkystraße 41;Tennishalle;Tennis/Squash;82496,4353999998;237542,1845;11,4232349700001;47,2715649020001
+68;Tennis Union Turnerschaft Innsbruck;Radetzkystraße 41;Tennisplatz;Tennis/Squash;82584,5387000004;237535,9135;11,42439791;47,2714974560001
+69;Tennis Union Turnerschaft Innsbruck;Radetzkystraße 41;Tennisplatz;Tennis/Squash;82568,5045999996;237529,422599999;11,4241848570001;47,2714410950001
+70;Tennis Union Turnerschaft Innsbruck;Radetzkystraße 41;Tennisplatz;Tennis/Squash;82544,7120000003;237518,510299999;11,423868479;47,2713459450001
+71;Tennis Union Turnerschaft Innsbruck;Radetzkystraße 41;Tennisplatz;Tennis/Squash;82528,4493000004;237511,922700001;11,423652389;47,2712887420001
+72;Spielplatz Riedgasse;Riedgasse;Sportplatz;Spielplatz;79865,3844999997;237517,8994;11,388466629;47,2716710390001
+73;Tennis Union Turnerschaft Innsbruck;Radetzkystraße 41;Beachvolleyballplatz;Funsport;82614,6415999997;237509,3083;11,424790748;47,271254416
+74;Tennis Union Turnerschaft Innsbruck;Radetzkystraße 41;Tennisplatz;Tennis/Squash;82512,1633000001;237505,339199999;11,4234359930001;47,271231578
+75;Tennis Union Turnerschaft Innsbruck;Radetzkystraße 41;Beachvolleyballplatz;Funsport;82599,7712000003;237502,553400001;11,4245930230001;47,2711955350001
+76;Fußballplatz Fennerareal;Kaiserjägerstraße;Fußballplatz;Fußball/Football;80687,0071999999;237471,580499999;11,3993143870001;47,271154274
+77;Tennis Union Turnerschaft Innsbruck;Radetzkystraße 41;Beachvolleyballplatz;Funsport;82583,0708999997;237495,045600001;11,424370982;47,271130113
+78;Sporthalle VS St. Nikolaus;Innallee 3;Sporthalle;Sporthalle;80178,0217000004;237491,562200001;11,3925927970001;47,2713961740001
+79;Tennis Union Turnerschaft Innsbruck;Radetzkystraße 41;Tennisplatz;Tennis/Squash;82538,1580999997;237481,8399;11,4237751270001;47,271016988
+80;Sporthalle NMS Olympisches Dorf;Kajetan-Sweth-Straße 14;Sporthalle;Sporthalle;84010,6580999997;237441,825999999;11,4432232560001;47,2704708190001
+81;Tennis Union Turnerschaft Innsbruck;Radetzkystraße 41;Tennisplatz;Tennis/Squash;82542,5263;237469,449100001;11,4238305590001;47,270905009
+82;Schießstand Hötting;Schwabeneckweg 7;Schießstandhalle;Sonstiges;78879,4533000002;237446,6381;11,375426895;47,271149069
+83;Turnleistungszentrum NMS Olympisches Dorf;Kajetan-Sweth-Straße 14;Sporthalle;Sporthalle;83997,3916999996;237408,383199999;11,4430417030001;47,270171761
+84;Spielplatz TG Kajetan-Sweth-Straße;Kajetan-Sweth-Straße;Sportplatz;Spielplatz;84058,2780999998;237383,0119;11,4438413990001;47,269935823
+85;Spielplatz Kindergarten Hötting;Schneeburggasse 30;Sportplatz;Spielplatz;79325,6778999995;237391,0737;11,3813129960001;47,2705957410001
+86;Spielplatz Waltherpark;Innstraße;Sportplatz;Spielplatz;80130,3211000003;237383,738700001;11,3919432450001;47,2704323090001
+87;Fußballplatz Reichenau;Klappholzstraße 2;Fußballplatz;Fußball/Football;82092,3925999999;237289,5023;11,4178500960001;47,269343034
+88;Sporthalle NMS Pembaurstraße;Pembaurstraße 18;Sporthalle;Sporthalle;81557,2032000003;237292,3309;11,4107794990001;47,269435006
+89;Sporthalle NMS Gabelsbergerstraße;Gabelsbergerstraße 1;Sporthalle;Sporthalle;81535,4886999996;237286,0854;11,410491462;47,26938153
+90;Fußballplatz Reichenau;Klappholzstraße 2;Fußballplatz;Fußball/Football;82044,4211999998;237245,9318;11,4172083030001;47,2689571820001
+91;SVO Stockschützenverein Olympisches Dorf;Kugelfangweg 48;Bocciabahn;Sonstiges;84328,8306999998;237264,339400001;11,447393694;47,2688339900001
+92;Sporthalle VS Dreiheiligen;Jahnstraße 5;Sporthalle;Sporthalle;81001,4577000001;237243,9869;11,4034280220001;47,2690688710001
+93;Spielplatz Durigstraße;Durigstraße;Sportplatz;Spielplatz;82604,3003000002;237234,4504;11,424603427;47,2687839000001
+94;Spielplatz Andechsstraße;Andechsstraße;Sportplatz;Spielplatz;82407,5877;237202,3994;11,421998531;47,268520322
+95;Schießstand Vereinsheim Reichenau;Valiergasse 8a;Schießstandhalle;Sonstiges;82862,6289999997;237155,198799999;11,428001846;47,2680387140001
+96;Sporthalle VS Mariahilf;Dr.-Sigismund-Epp-Weg 3;Sporthalle;Sporthalle;79679,7740000002;237140,567199999;11,3859470400001;47,268300121
+97;Sporthalle VS Pradl-Leitgeb;Pradler Platz 8;Sporthalle;Sporthalle;81330,5279000001;237077,2786;11,407745537;47,2675290650001
+98;Sporthalle VS Allerheiligen;Karl-Innerebner-Straße 70;Sporthalle;Sporthalle;77446,3536;237075,488500001;11,356427164;47,267981402
+99;Bocciaanlage Rapoldipark;Pradler Platz;Bocciabahn;Sonstiges;81244,2456;237059,190199999;11,4066023020001;47,2673770490001
+100;Sportanlage Andechsstraße;Andechsstraße 70;Fußballplatz;Fußball/Football;82393,8995000003;237022,800100001;11,421784652;47,2669068860001
+101;Spielplatz Rapoldipark;Stadtpark Rapoldi;Sportplatz;Spielplatz;81248,6189000001;237025,334000001;11,406653942;47,267072037
+102;Sportanlage Andechsstraße;Andechsstraße 70;Beachvolleyballplatz;Funsport;82352,1829000004;237022,562999999;11,421233461;47,266909974
+103;Sportanlage Andechsstraße;Andechsstraße 70;Streetballplatz;Funsport;82325,2016000003;237027,324999999;11,4208778670001;47,266956174
+104;Spielplatz Lohbach;Lohbachufer;Skate-/Rollerbladeplatz;Funsport;76501,5028999997;237007,247500001;11,343931872;47,267478166
+105;Sportanlage Andechsstraße;Andechsstraße 70;Basketballplatz;Funsport;82311,1672999999;237016,841600001;11,4206905240001;47,2668636510001
+106;Sportanlage Andechsstraße;Andechsstraße 70;Streetballplatz;Funsport;82322,04;237017,8379;11,420834353;47,2668712510001
+107;Sportanlage Andechsstraße;Andechsstraße 70;Streetballplatz;Funsport;82318,8784999996;237008,3508;11,420790842;47,2667863290001
+108;Sportanlage Andechsstraße;Andechsstraße 70;Beachsoccerplatz;Funsport;82345,1722999997;237001,580499999;11,4211369830001;47,266722154
+109;Kegelbahn NMS Hötting West;Viktor-Franz-Hess-Straße 9;Kegelbahn;Sporthalle;76557,0045999996;236999,7333;11,344663886;47,267404137
+110;Eisschützenclub Tirol;Egerdachstraße 71;Bocciabahn;Sonstiges;82373,2948000003;236964,9388;11,421501791;47,266389114
+111;Spielplatz Lohbach;Lohbachufer;Sportplatz;Spielplatz;76394,1224999996;236949,1479;11,3425032380001;47,266968127
+112;Eisschützenclub Tirol;Egerdachstraße 71;Bocciabahn;Sonstiges;82373,4046;236958,717900001;11,4215020980001;47,266333155
+113;Sporthalle NMS Hötting West;Viktor-Franz-Hess-Straße 9;Sporthalle;Sporthalle;76567,1782999998;236942,322799999;11,3447884940001;47,2668866440001
+114;Eislaufplatz Sparkassenplatz;Sparkassenplatz;Eislaufplatz;Eissport;80354,8525999999;236895,7488;11,3948223950001;47,2660163680001
+115;Spielplatz Rapoldipark;Stadtpark Rapoldi;Skate-/Rollerbladeplatz;Funsport;81168,4367000004;236841,4267;11,405561275;47,265428028
+116;Hallenbad Amraser Straße;Amraser Straße 3;Hallenbad;Schwimmen;81148,5005999999;236812,1502;11,4052925890001;47,265167198
+117;Hallenbad Höttinger Au;Fürstenweg 12;Hallenbad;Schwimmen;79286,1891000001;236791,628599999;11,380685167;47,2652095720001
+118;Hallenbad Amraser Straße;Amraser Straße 3;Hallenbad;Schwimmen;81158,9738999996;236785,4899;11,4054261270001;47,264926148
+119;Sportanlage NMS Hötting;Fürstenweg 13;Sportplatz;Spielplatz;79419,6456000004;236753,1578;11,3824415030001;47,264847511
+120;Spielplatz Kranewitterpark;Kranewitterstraße;Sportplatz;Spielplatz;82268,4627;236762,5527;11,420079635;47,264582149
+121;Sportanlage NMS Hötting;Fürstenweg 13;Sporthalle;Sporthalle;79356,1579999998;236751,0063;11,381602365;47,2648358180001
+122;Streetballplatz Prandtauerufer;Prandtauerufer;Streetballplatz;Funsport;79442,6206;236731,6501;11,382741222;47,264651316
+123;Spielplatz Ursulinenpark;Ursulinenweg;Basketballplatz;Funsport;78138,3130000001;236586,8073;11,36548428;47,263504805
+124;Sportanlage Ursulinengymnasium;Fürstenweg 86;Sportplatz;Spielplatz;78409,4474999998;236444,625700001;11,3690413890001;47,2621938990001
+125;Fitness- und Karatecenter Haslwanter;Reimmichlgasse 9;Fitnesscenter;Fitness/Klettern;78336,4627;236480,358100001;11,368083449;47,262523936
+126;Tennisplatz Kranebitter Allee;Kranebitter Allee;Tennisplatz;Tennis/Squash;76913,0826000003;236474,4038;11,3492782870001;47,262638194
+127;Innsbrucker Taekwon-do-Center;Andreas-Hofer-Straße 5;Fitnesscenter;Fitness/Klettern;80113,8091000002;236417,931299999;11,391552405;47,261748653
+128;Streetballplatz Arthur-Haidl-Promenade;Fischnalerstraße;Streetballplatz;Funsport;79242,2017999999;236392,0888;11,3800333880001;47,261621726
+129;Sporthalle NMS Müllerstraße;Müllerstraße 38;Sporthalle;Sporthalle;79846,2254999997;236386,564999999;11,3880118860001;47,2614990760001
+130;Freibad Tivoli;Purtschellerstraße 1;Freibad;Schwimmen;81278,1200000001;236345,420700001;11,406920389;47,2609538500001
+131;Sporthalle NMS Dr.-Fritz-Prior;Leopoldstraße 15;Sporthalle;Sporthalle;80510,8130999999;236342,382300001;11,3967834700001;47,2610208020001
+132;Freibad Tivoli;Purtschellerstraße 1;Freibad;Schwimmen;81385,2498000003;236306,4877;11,4083285340001;47,2605904870001
+133;Freibad Tivoli;Purtschellerstraße 1;Freibad;Schwimmen;81290,3098999998;236303,590399999;11,4070738340001;47,26057616
+134;Freibad Tivoli;Purtschellerstraße 1;Freibad;Schwimmen;81412,5323999999;236270,3038;11,4086823710001;47,260261707
+135;Sporthalle VS Angergasse;Angergasse 18;Sporthalle;Sporthalle;78450,4682;236255,034700001;11,369550121;47,260483976
+136;Spielplatz Angergasse;Angergasse;Sportplatz;Spielplatz;78482,2959000003;236195,2596;11,36996011;47,259942611
+137;Eisschützenclub Tivoli;Bleichenweg 54;Bocciabahn;Sonstiges;83382,3360000001;236201,323899999;11,434690689;47,2593948420001
+138;Freibad Tivoli;Purtschellerstraße 1;Freibad;Schwimmen;81401,7270999998;236189,143300001;11,4085248920001;47,2595331570001
+139;Sporthalle VS Amras;Kirchsteig 8;Sporthalle;Sporthalle;82931,0314999996;236094,9442;11,428709364;47,2584951650001
+140;Boccia-/Stockschießanlage Wilten West / Besele II;Innerkoflerstraße 11c;Bocciabahn;Sonstiges;79573,8232000005;236064,8222;11,3843561950001;47,258638558
+141;Sportanlage HTBLVA II Trenkwalderstraße;Mitterweg 17;Sportplatz;Spielplatz;79029,3239000002;236048,678099999;11,377160604;47,2585589450001
+142;Boccia-/Stockschießanlage Wilten West / Besele I;Innerkoflerstraße 11b;Bocciabahn;Sonstiges;79557,3271000003;236057,8236;11,3841370430001;47,2585776110001
+143;Sportanlage HTBLVA II Trenkwalderstraße;Mitterweg 17;Sporthalle;Sporthalle;78996,9627999999;236051,936000001;11,3767336930001;47,258592127
+144;Universitätssportanlagen;Fürstenweg 185;Tennisplatz;Tennis/Squash;77760,1793;236056,134199999;11,360396655;47,2587770900001
+145;Sparkassentennisclub;Fürstenweg 172b;Tennisplatz;Tennis/Squash;77570,0557000004;236038,158500001;11,357882021;47,258637853
+146;Olympiahalle;Olympiastraße 10;Eishalle;Eissport;81481,9698999999;236003,579600001;11,4095511630001;47,2578544340001
+147;Sparkassentennisclub;Fürstenweg 172b;Tennisplatz;Tennis/Squash;77554,3019000003;236031,773;11,3576728090001;47,2585822820001
+148;Tiroler Wasserkraft Arena;Olympiastraße 10;Eishalle;Eissport;81561,5268999999;236017,2709;11,4106045620001;47,257967711
+149;Universitätssportanlagen;Fürstenweg 185;Tennisplatz;Tennis/Squash;77771,6765000001;236027,9781;11,360543648;47,2585225170001
+150;Sparkassentennisclub;Fürstenweg 172b;Tennisplatz;Tennis/Squash;77538,5815000003;236025,452299999;11,357464051;47,258527289
+151;Universitätssportanlagen;Fürstenweg 185;Tennisplatz;Tennis/Squash;77753,7674000002;236026,1296;11,3603067500001;47,258508008
+152;Spielplatz Pechepark;Pechestraße;Sportplatz;Spielplatz;80682,3744999999;236033,4615;11,398994251;47,2582216280001
+153;Universitätssportanlagen;Fürstenweg 185;Tennisplatz;Tennis/Squash;77727,8937999997;236023,4629;11,359964501;47,2584870800001
+154;Fußballplatz Wilten West / Besele;Innerkoflerstraße 11;Fußballplatz;Fußball/Football;79543,6441000002;235994,7042;11,383945093;47,2580116190001
+155;Universitätssportanlagen;Fürstenweg 185;Tennisplatz;Tennis/Squash;77709,9737999998;236021,627699999;11,359727461;47,2584726910001
+156;Sparkassentennisclub;Fürstenweg 172b;Tennisplatz;Tennis/Squash;77522,9205999998;236019,084799999;11,3572560710001;47,2584718680001
+157;Universitätssportanlagen;Fürstenweg 185;Tennisplatz;Tennis/Squash;77688,1277999999;236009,373600001;11,359436755;47,258365064
+158;Tennis- und Squashhallen West;Fürstenweg 172;Tennishalle;Tennis/Squash;77415,1268999996;235990,569499999;11,355827205;47,2582281030001
+159;Tennis- und Squashhallen West;Fürstenweg 172;Squashhalle;Tennis/Squash;77440,3046000004;235996,955499999;11,3561609010001;47,2582825740001
+160;Sparkassentennisclub;Fürstenweg 172b;Tennisplatz;Tennis/Squash;77552,4265000001;235991,3726;11,3576410470001;47,2582191710001
+161;Sparkassentennisclub;Fürstenweg 172b;Tennisplatz;Tennis/Squash;77536,6853999998;235985,068399999;11,35743202;47,2581643290001
+162;Universitätssportanlagen;Fürstenweg 185;Tennisplatz;Tennis/Squash;77753,3075999999;235976,816299999;11,3602921240001;47,258064575
+163;Universitätssportanlagen;Fürstenweg 185;Tennisplatz;Tennis/Squash;77715,0104999999;235972,890799999;11,3597855470001;47,258033792
+164;Universitätssportanlagen;Fürstenweg 185;Tennisplatz;Tennis/Squash;77692,1223999998;235970,517100001;11,3594827900001;47,258015146
+165;Landessportcenter Tirol;Olympiastraße 10a;Hallenbad;Schwimmen;81606,1448999997;235966,6381;11,411184728;47,2575068360001
+166;Tennis- und Squashhallen West;Fürstenweg 172;Tennishalle;Tennis/Squash;77441,4187000003;235955,794199999;11,3561685080001;47,257912268
+167;Eisschnelllaufring;Olympiastraße 10;Eislaufplatz;Eissport;81439,5190000003;235929,4618;11,408976942;47,2571931350001
+168;Eisschnelllaufring;Olympiastraße 10;Eislaufplatz;Eissport;81506,8300000001;235918,9352;11,4098641620001;47,2570901390001
+169;Universitätssportanlagen;Fürstenweg 185;Leichtathletikanlage;Sonstiges;77689,3448999999;235915,6768;11,3594365970001;47,25752228
+170;Universitätssportanlagen;Fürstenweg 185;Leichtathletikanlage;Sonstiges;77605,2451999998;235852,940300001;11,3583148110001;47,256967989
+171;Universitätssportanlagen;Fürstenweg 185;Fußballplatz;Fußball/Football;77655,6564999996;235851,661499999;11,3589804980001;47,256950546
+172;Spielplatz Mitterweg Ost;Mitterweg;Sportplatz;Spielplatz;78552,3806999996;235882,054500001;11,3708310650001;47,257117527
+173;Universitätssportanlagen;Fürstenweg 185;Hallenbad;Schwimmen;77407,8042000001;235874,4958;11,3557104330001;47,2571850800001
+174;Universitätssportanlagen;Fürstenweg 185;Fußballplatz;Fußball/Football;77544,3406999996;235817,761700001;11,357504208;47,2566587920001
+175;Universitätssportanlagen;Fürstenweg 185;Leichtathletikanlage;Sonstiges;77714,9442999996;235833,598999999;11,359760529;47,2567811110001
+176;Tivoli Stadion;Stadionstraße 1-1b;Fußballplatz;Fußball/Football;81607,8324999996;235800,0581;11,411176696;47,256008552
+177;Universitätssportanlagen;Fürstenweg 185;Schießstandhalle;Sonstiges;77347,6964999996;235848,584899999;11,354911966;47,256959119
+178;Universitätssportanlagen;Fürstenweg 185;Fußballplatz;Fußball/Football;77306,9452;235810,477700001;11,354367091;47,256621195
+179;Kletterzentrum Tivoli;Stadionstraße 1;Kletterhalle;Fitness/Klettern;81675,9123;235838,9191;11,412083045;47,256349593
+180;Universitätssportanlagen;Fürstenweg 185;Sporthalle;Sporthalle;77474,4254999999;235846,2651;11,356585593;47,25692336
+181;Universitätssportanlagen;Fürstenweg 185;Sporthalle;Sporthalle;77480,6948999995;235835,911;11,3566666200001;47,256829505
+182;Universitätssportanlagen;Fürstenweg 185;Sporthalle;Sporthalle;77482,1140000001;235822,3607;11,3566830240001;47,256707476
+183;Universitätssportanlagen;Fürstenweg 185;Sportplatz;Spielplatz;77372,6381000001;235805,401000001;11,355233981;47,2565678240001
+184;Tivoli Fußballplatz W2;Olympiastraße 10;Fußballplatz;Fußball/Football;81505,4603000004;235778,4893;11,409820536;47,255827261
+185;Universitätssportanlagen;Fürstenweg 185;Sporthalle;Sporthalle;77449,9480999997;235812,884199999;11,356256493;47,2566260350001
+186;Universitätssportanlagen;Fürstenweg 185;Sporthalle;Sporthalle;77413,3507000003;235817,7238;11,3557738980001;47,2566738620001
+187;Tennisanlage ÖBB;Hauptfrachtenbahnhof;Tennisplatz;Tennis/Squash;81032,0152000003;235791,465600001;11,4035691340001;47,2560023880001
+188;Universitätssportanlagen;Fürstenweg 185;Kletterhalle;Fitness/Klettern;77417,6413000003;235800,9515;11,355827678;47,25652252
+189;Universitätssportanlagen;Fürstenweg 185;Sporthalle;Sporthalle;77478,3678000001;235773,9537;11,356625174;47,256272579
+190;Universitätssportanlagen;Fürstenweg 185;Sportplatz;Spielplatz;77164,6328999996;235766,806;11,352479709;47,2562451320001
+191;Universitätssportanlagen;Fürstenweg 185;Skate-/Rollerbladeplatz;Funsport;77125,2982000001;235775,5516;11,351961628;47,2563283910001
+192;Universitätssportanlagen;Fürstenweg 185;Sportplatz;Spielplatz;77430,2867000001;235762,5656;11,3559880880001;47,256175818
+193;Universitätssportanlagen;Fürstenweg 185;Sportplatz;Spielplatz;77385,7089;235758,452299999;11,3553985350001;47,2561440650001
+194;Universitätssportanlagen;Fürstenweg 185;Beachvolleyballplatz;Funsport;77086,3556000004;235766,0689;11,35144559;47,2562476700001
+195;Tennisanlage ÖBB;Hauptfrachtenbahnhof;Tennisplatz;Tennis/Squash;81039,5460000001;235754,7399;11,40366197;47,2556711820001
+196;Universitätssportanlagen;Fürstenweg 185;Beachvolleyballplatz;Funsport;77074,3026999999;235764,058700001;11,3512860340001;47,2562310020001
+197;Fitnessparkour Amras;Tummelplatzweg;Fitnessparkour;Fitness/Klettern;82812,8213;235648,659;11,427065414;47,254496567
+198;Universitätssportanlagen;Fürstenweg 185;Beachvolleyballplatz;Funsport;77062,2441999996;235762,0473;11,351126403;47,256214324
+199;Universitätssportanlagen;Fürstenweg 185;Sporthalle;Sporthalle;77119,9811000004;235751,553200001;11,3518872650001;47,2561131890001
+200;Universitätssportanlagen;Fürstenweg 185;Kletterhalle;Fitness/Klettern;77111,1424000002;235741,102;11,3517687140001;47,2560202340001
+201;Sportanlage Pulverturm;Hans-Flöckinger-Promenade;Sportplatz;Spielplatz;77509,6150000002;235737,3769;11,357031606;47,2559399570001
+202;Sportanlage Pulverturm;Hans-Flöckinger-Promenade;Sportplatz;Spielplatz;77469,8880000003;235733,312899999;11,35650614;47,2559080830001
+203;Sportanlage Pulverturm;Hans-Flöckinger-Promenade;Skate-/Rollerbladeplatz;Funsport;77424,0604999997;235720,3893;11,3558985610001;47,255797246
+204;Tivoli Beachvolleyballplatz;Olympiastraße 10;Beachvolleyballplatz;Funsport;81521,8432;235709,9803;11,4100244800001;47,2552091220001
+205;Sportanlage Pulverturm;Hans-Flöckinger-Promenade;Basketballplatz;Funsport;77504,1019000001;235716,1522;11,356955113;47,255749726
+206;Sportanlage Pulverturm;Hans-Flöckinger-Promenade;Basketballplatz;Funsport;77479,6997999996;235713,6361;11,356632346;47,2557299700001
+207;Sportplatz Stift Wilten;Klostergasse;Sportplatz;Spielplatz;80782,2246000003;235574,1073;11,400230466;47,2540783410001
+208;Sportanlage PHT;Pastorstraße 7;Leichtathletikanlage;Sonstiges;80464,1140999999;235418,988;11,3960008290001;47,252722271
+209;Sportanlage PHT;Pastorstraße 7;Sportplatz;Spielplatz;80439,9622;235419,3849;11,3956818950001;47,252728791
+210;Sportanlage PHT;Pastorstraße 7;Sportplatz;Spielplatz;80423,7844000002;235385,3605;11,395462111;47,2524247790001
+211;Sportanlage Sieglanger;Josef-Franz-Huter-Straße 72;Fußballplatz;Fußball/Football;77397,3322000001;235350,9219;11,355481733;47,2524776610001
+212;Sportanlage Sieglanger;Josef-Franz-Huter-Straße 72;Sportplatz;Spielplatz;77480,9929999998;235355,123199999;11,356587484;47,2525056090001
+213;Sporthalle VS Sieglanger;Weingartnerstraße 26;Sporthalle;Sporthalle;78230,9314000001;235345,4692;11,366491264;47,2523301430001
+214;Sprungschanze Bergisel;Bergisel;Sprungschanze;Wintersport;80738,5466999998;234969,791200001;11,3995447400001;47,2486489830001
+215;Tennisplätze Ziegelstadl;Völser Straße;Tennisplatz;Tennis/Squash;77435,9095999999;234944,4509;11,355921102;47,2488176150001
+216;Tennisplätze Ziegelstadl;Völser Straße;Tennisplatz;Tennis/Squash;77400,8284;234933,904899999;11,355455948;47,2487268940001
+217;Spielplatz Grillhof;Grillhofweg 100;Sportplatz;Spielplatz;81338,4424999999;234083,178099999;11,407306949;47,2406017280001
+218;Sporthalle VS Igls-Vill;Habichtstraße 9;Sporthalle;Sporthalle;81319,4689999996;233145,4804;11,406886495;47,2321711980001
+219;Schießstand Igls;Igler Straße 58a;Schießstandhalle;Sonstiges;81288,1316;232906,803400001;11,406429525;47,230028599
+220;Skigebiet Patscherkofel;Bilgeristraße 24;Skigebiet;Wintersport;81817,1074000001;232792,1691;11,4133924810001;47,228932222
+221;Eislaufplatz / Beachvolleyballplatz Igls;nahe Bilgeristraße 24;Eislauf-/Beachvolleyballpl.;Funsport;81854,0404000003;232813,5714;11,4138839840001;47,2291201100001
+222;Skigebiet Patscherkofel;Bilgeristraße 24;Skigebiet;Wintersport;82213,2237;232609,7381;11,418588717;47,227242302
+223;Reitarena Innsbruck-Igls;Römerstraße 50;Reitanlage;Sonstiges;82822,8733000001;232645,274;11,426643766;47,2274855580001
+224;Tennis Park Club Igls;Patscher Straße 21;Tennisplatz;Tennis/Squash;81591,3353000004;232558,349099999;11,4103692780001;47,226857425
+225;Tennis Park Club Igls;Patscher Straße 21;Tennisplatz;Tennis/Squash;81604,2320999997;232548,026799999;11,4105376630001;47,2267629990001
+226;Tennis Park Club Igls;Patscher Straße 21;Tennisplatz;Tennis/Squash;81617,0944999997;232537,6625;11,4107055850001;47,226668198
+227;Reitarena Innsbruck-Igls;Römerstraße 50;Reithalle;Sonstiges;82988,1942999996;232530,534700001;11,428805106;47,226432899
+228;Tennis Park Club Igls;Patscher Straße 21;Tennisplatz;Tennis/Squash;81574,2869999995;232527,9652;11,4101386900001;47,2265862880001
+229;Tennis Park Club Igls;Patscher Straße 21;Tennisplatz;Tennis/Squash;81561,2468999997;232511,9254;11,4099636240001;47,226443653
+230;Tennis Park Club Igls;Patscher Straße 21;Tennisplatz;Tennis/Squash;81550,6908;232498,6098;11,409821847;47,226325209
+231;Tennis Park Club Igls;Patscher Straße 21;Tennishalle;Tennis/Squash;81593,3850999996;232453,7234;11,410377327;47,2259162550001
+232;Tennis Park Club Igls;Patscher Straße 21;Squashhalle;Tennis/Squash;81623,2050000001;232463,6205;11,4107727960001;47,2260015690001
+233;Fußballplatz Igls;Heiligwasserweg;Fußballplatz;Fußball/Football;82391,4539000001;232406,9539;11,4209044780001;47,2253963810001
+234;Tennis Park Club Igls;Patscher Straße 21;Tennisplatz;Tennis/Squash;81566,0451999996;232437,323100001;11,4100134190001;47,225772147
+235;Skigebiet Patscherkofel;Bilgeristraße 24;Skigebiet;Wintersport;82586,8754000003;232230,6767;11,423451893;47,2237866410001
+236;Olympia Bob- und Rodelbahn;Römerstraße;Bobbahn;Wintersport;83445,8404999999;231937,1598;11,434736507;47,221038838
+237;Skigebiet Patscherkofel;Bilgeristraße 24;Skigebiet;Wintersport;83347,7166999998;230981,327;11,433263912;47,212455332
+238;Klettergarten Ahrntal;Vill - Mülldeponie Ahrntal;Klettergarten;Fitness/Klettern;80741,3387000002;231486,479900001;11,398955076;47,217322541
+239;Klettergarten Ahrntal;Vill - Mülldeponie Ahrntal;Klettergarten;Fitness/Klettern;80607,2638999997;231463,841399999;11,3971812950001;47,2171353510001
+240;Klettergarten Goldbichl (ÖAV);Römerstraße;Klettergarten;Fitness/Klettern;82292,3009000001;231311,8782;11,41939489;47,21556058
+241;Freibad Tivoli;Purtschellerstraße 1;Basketballplatz;Funsport;81335,9833000004;236189,5602;11,4076564960001;47,2595450310001
+242;Freibad Tivoli;Purtschellerstraße 1;Sportplatz;Spielplatz;81351,3541000001;236133,3728;11,407849346;47,2590378310001
+243;Freibad Tivoli;Purtschellerstraße 1;Skate-/Rollerbladeplatz;Funsport;81384,1575999996;236127,2991;11,408281572;47,2589791560001
+244;Hypoxi Studio Innsbruck;Viaduktbogen 53;Fitnesscenter;Fitness/Klettern;81064,5898000002;237451,2212;11,4042996430001;47,2709247820001
+245;Fitnesscenter Lhotka;Innrain 11;Fitnesscenter;Fitness/Klettern;80093,7825999996;236960,6708;11,391384843;47,2666320380001
+246;Fitnesscenter Kleewein;Grabenweg 67b;Fitnesscenter;Fitness/Klettern;83672,0158000002;236856,521600001;11,4386396250001;47,2652503050001
+247;Body-Mind;Andreas-Hofer-Straße 11-13;Fitnesscenter;Fitness/Klettern;80132,5251000002;236330,958699999;11,3917841040001;47,260964216
+248;Body-Mind;Andreas-Hofer-Straße 11-13;Fitnesscenter;Fitness/Klettern;80135,3174000001;236313,1853;11,391817814;47,2608040370001
+249;Alfa Sports and SPA;Innrain 143;Fitnesscenter;Fitness/Klettern;79055,2670999998;235781,8551;11,377456259;47,2561562330001
+250;Baggersee Minigolf;Archenweg;Minigolfanlage;Golf/Minigolf;84317,5597999999;237080,718900001;11,447210222;47,267184135
+251;Baggersee Minigolf;Archenweg;Skate-/Rollerbladeplatz;Funsport;84367,7325999998;237066,349300001;11,4478703820001;47,26704848
+252;Baggersee;Archenweg;Beachvolleyballplatz;Funsport;84280,7719000001;237049,1812;11,4467182600001;47,266905228
+253;Baggersee;Archenweg;Bocciabahn;Sonstiges;84308,7533999998;237051,703;11,4470884150001;47,2669243230001
+254;Baggersee;Archenweg;Freibad;Schwimmen;84294,8269999996;236923,2585;11,4468802590001;47,265771005
+255;Eislaufplatz O-Dorf;Kajetan-Sweth-Straße 14;Eislaufplatz;Eissport;83924,4415999996;237454,487299999;11,442086493;47,2705956830001
+256;Sportanlage Ursulinengymnasium;Fürstenweg 86;Hallenbad;Schwimmen;78460,9776999997;236502,8783;11,3697323390001;47,2627116400001
+257;Sportanlage Ursulinengymnasium;Fürstenweg 86;Sporthalle;Sporthalle;78473,7311000004;236471,289100001;11,369895292;47,2624260310001
+258;Sportanlage PHT;Pastorstraße 7;Sporthalle;Sporthalle;80393,9205;235457,3084;11,395080561;47,2530754650001
+259;Volkshaus Innsbruck Sportanlage;Radetzkystraße 47;Kegelbahn;Sporthalle;82587,4687000001;237441,015799999;11,424419127;47,270643668
+260;Tennis- und Squashcenter;Stadlweg 40;Tennishalle;Tennis/Squash;83088,2607000005;237015,2634;11,430956929;47,2667518230001
+261;Tennis- und Squashcenter;Stadlweg 40;Squashhalle;Tennis/Squash;83112,2478999998;237013,5636;11,4312735240001;47,2667335080001
+262;Tennis- und Squashcenter;Stadlweg 40;Tennishalle;Tennis/Squash;83136,8015999999;237012,430299999;11,431597708;47,2667202160001
+263;Landessportcenter Tirol;Olympiastraße 10a;Sporthalle;Sporthalle;81616,3032999998;235932,0638;11,41131262;47,2571946460001
+264;Landessportcenter Tirol;Olympiastraße 10a;Sporthalle;Sporthalle;81636,4921000004;235931,102399999;11,4115791250001;47,257183497
+265;ACT Fitness Studio Tivoli GmbH;Stadionstraße 1;Fitnesscenter;Fitness/Klettern;81689,9040999999;235790,249500001;11,412258996;47,255910166
+266;Inn-Lauf-Meilen;Karwendel Brücke bis New-Orleans-Brücke;Fitnessparkour;Fitness/Klettern;81506,8113000002;238506,415200001;11,4103346520001;47,2803596270001
+267;Body and Soul;Mitterweg 16;Fitnesscenter;Fitness/Klettern;78941,1567000002;236174,222200001;11,376018038;47,2596985660001
+268;Happy Fitness;Mitterweg 21;Fitnesscenter;Fitness/Klettern;78952,6458000001;236004,183599999;11,376139863;47,2581679940001
+269;Sporthalle HTBLVA I Anichstraße;Anichstraße 26-28;Sporthalle;Sporthalle;79907,6336000003;236800,761;11,388896968;47,2652165640001
+270;Sporthalle HTBLVA I Anichstraße;Anichstraße 26-28;Sporthalle;Sporthalle;79936,9697000002;236779,6117;11,389280768;47,2650228030001
+271;Sporthalle ITV - Innsbrucker Turnverein;Fallmerayerstraße 12;Sporthalle;Sporthalle;80107,1870999997;236675,9121;11,3915110360001;47,2640695250001
+272;Sporthalle ITV - Innsbrucker Turnverein;Fallmerayerstraße 12;Sporthalle;Sporthalle;80087,0612000003;236671,136499999;11,3912442970001;47,2640290250001
+273;Sporthalle VS Hötting;Schulgasse 4;Sporthalle;Sporthalle;79672,5937000001;237586,187899999;11,3859314210001;47,272308536
+274;Sporthalle VS Hötting;Schulgasse 4;Sporthalle;Sporthalle;79674,6884000003;237563,820599999;11,3859551200001;47,2721071290001
+275;Judozentrum Innsbruck;Franz-Fischer-Straße 7c;Sporthalle;Sporthalle;80421,7136000004;236006,594900001;11,3955461900001;47,2580118990001
+276;Sporthalle Akademisches Gymnasium Innsbruck;Angerzellgasse 14;Sporthalle;Sporthalle;80513,9134999998;237123,8409;11,3969648290001;47,2680481990001
+277;Sporthalle BG/BRG Sillgasse;Sillgasse 10;Sporthalle;Sporthalle;80674,4168999996;237047,1413;11,399071604;47,2673387770001
+278;City Squash and Fitness;Hunoldstraße 5;Fitnesscenter;Fitness/Klettern;81216,7050999999;236617,134400001;11,4061583180001;47,2634049850001
+279;City Squash and Fitness;Hunoldstraße 5;Squashhalle;Tennis/Squash;81203,0481000002;236602,477600001;11,405975241;47,263274859
+280;Sporthalle BG/BRG Reithmannstraße;Reithmannstraße 1-3;Sporthalle;Sporthalle;81913,3003000002;237505,0462;11,415523281;47,271303753
+281;Sporthalle BG/BRG Reithmannstraße;Reithmannstraße 1-3;Sporthalle;Sporthalle;81938,3636999996;237469,1445;11,415847872;47,2709777650001
+282;Body and Soul Women;Amraser-See-Straße 60;Fitnesscenter;Fitness/Klettern;83071,2352999998;236649,526799999;11,4306641910001;47,263464884
+283;Vereinsheim Arzl;Schusterbergweg 15;Sporthalle;Sporthalle;83120,5996000003;238688,75;11,4316947720001;47,281797463
+284;Sporthalle VS Pradl-Ost / Siegmairschule;Siegmairstraße 1;Sporthalle;Sporthalle;82363,2856999999;236783,2028;11,4213361490001;47,264756
+285;Sporthalle VS Pradl-Ost / Siegmairschule;Siegmairstraße 1;Sporthalle;Sporthalle;82407,4959000004;236689,364499999;11,4219029610001;47,2639065710001
+286;Tennisclub IEV;Reichenauer Straße 144;Beachvolleyballplatz;Funsport;82773,6248000003;237774,591499999;11,4269403800001;47,2736201450001
+287;Sportanlage Hötting West;Franz-Baumann-Weg 8;Leichtathletikanlage;Sonstiges;76477,5888;236949,467900001;11,3436060540001;47,2669613150001
+288;Sportanlage Hötting West;Franz-Baumann-Weg 8;Fußballplatz;Fußball/Football;76502,4707000004;236950,120300001;11,3439349060001;47,2669642910001
+289;Sportanlage Hötting West;Franz-Baumann-Weg 8;Fußballplatz;Fußball/Football;76444,7598000001;236936,627;11,343170125;47,266849645
+290;Sportanlage Hötting West;Franz-Baumann-Weg 8;Basketballplatz;Funsport;76522,1303000003;236895,156500001;11,344185265;47,2664677010001
+291;Sportanlage Hötting West;Franz-Baumann-Weg 8;Eislauf-/Beachvolleyballpl.;Funsport;76500,2896999996;236890,8814;11,343895979;47,266431792
+292;Tivoli Leichtathletikanlage;Stadionstraße 1, Zugang Wiesengasse;Leichtathletikanlage;Sonstiges;81397,2489;235765,508300001;11,408388814;47,2557239060001
+293;Tivoli Leichtathletikanlage;Stadionstraße 1, Zugang Wiesengasse;Basketballplatz;Funsport;81418,2481000004;235830,074999999;11,408677918;47,2563019670001
+294;Tivoli Fußballplatz W1;Stadionstraße 1, Zugang Wiesengasse;Fußballplatz;Fußball/Football;81437,6155000003;235769,202199999;11,408922687;47,2557521350001
+295;Tivoli Leichtathletikanlage;Stadionstraße 1, Zugang Wiesengasse;Leichtathletikanlage;Sonstiges;81398,1513;235823,123400001;11,4084111940001;47,2562419340001
+296;Tivoli Leichtathletikanlage;Stadionstraße 1, Zugang Wiesengasse;Leichtathletikanlage;Sonstiges;81424,9652000004;235705,7576;11,4087440660001;47,2551831330001
+297;Tivoli Leichtathletikanlage;Stadionstraße 1, Zugang Wiesengasse;Leichtathletikanlage;Sonstiges;81490,4239999997;235696,1786;11,4096069600001;47,2550888910001
+298;Tivoli Leichtathletikanlage;Stadionstraße 1, Zugang Wiesengasse;Leichtathletikanlage;Sonstiges;81435,2001999998;235700,412699999;11,408878288;47,2551338000001
+299;Spielplatz Tivoli;Olympiastraße;Sportplatz;Spielplatz;81365,6989000002;236085,2904;11,4080301110001;47,258603647
+300;Spielplatz Tivoli;Olympiastraße;Streetballplatz;Funsport;81325,3650000002;236081,0595;11,407496544;47,2585705810001
+301;Spielplatz Tivoli;Olympiastraße;Sportplatz;Spielplatz;81326,7752999999;236065,546499999;11,4075123600001;47,258430897
+302;Freibad Gruberhof;Heiligwasserweg;Freibad;Schwimmen;81962,4533000002;232738,254799999;11,415301539;47,228429304
+303;Olympia Golf;Badhausstraße;Golfplatz;Golf/Minigolf;82636,8221000005;232306,339500001;11,4241251620001;47,224460827
+304;Billard-Sport-Arena;Bachlechnerstraße 46;Billard;Sonstiges;78907,6593000004;236710,1428;11,375669881;47,264522232
+305;At Charly´s Friends;Adamgasse 23;Billard;Sonstiges;80651,8015000001;236324,882999999;11,3986428270001;47,2608461720001
+306;Pool Café;Müllerstraße 27;Billard;Sonstiges;80050,0632999996;236341,2183;11,390696587;47,2610665130001
+307;Billardlokal Verein Little Pool Team Innsbruck;Reichenauer Straße 19;Billard;Sonstiges;81533,1557;237388,674699999;11,410479309;47,270304416
+308;Billardlokal Tiroler Pool Billard Trainingszentrum;Dörrstraße 51;Billard;Sonstiges;83542,8251999998;238336,484099999;11,4372088980001;47,27857605
+309;Billardlokal Verein BC Grand Prix Innsbruck;Innrain 102;Billard;Sonstiges;79135,0199999996;235954,9734;11,3785402890001;47,257703545
+310;WUB-Skatehalle;Matthias-Schmid-Straße 12;Skate-/Rollerbladehalle;Funsport;81826,3295;238145,567199999;11,4144911720001;47,277074832
+311;Sporthalle BORG Fallmerayerstraße;Fallmerayerstraße 7;Sporthalle;Sporthalle;80235,8453000002;236590,0823;11,393195389;47,263281975
+312;Minigolf Kranebitter Hof;Kranebitter Allee 203;Minigolfanlage;Golf/Minigolf;75360,5384;236401,628699999;11,3287553660001;47,2621632180001
+313;BMX-Dirtpark;Hans-Flöckinger-Promenade;Skate-/Rollerbladeplatz;Funsport;76782,9988000002;235560,0745;11,347403166;47,254430536
+314;Spielplatz Sauerweinwiese;Kranebitterbodenweg;Sportplatz;Spielplatz;75289,0820000004;236752,268300001;11,327870257;47,265324816
+315;Baggersee;Archenweg;Sportplatz;Spielplatz;84130,8657999998;236819,894200001;11,4446947060001;47,264862427
+316;Tennis Park Club Igls;Patscher Straße 21;Tennisplatz;Tennis/Squash;81647,3300000001;232572,347200001;11,4111110540001;47,2269763790001
+317;Tennis Park Club Igls;Patscher Straße 21;Tennisplatz;Tennis/Squash;81619,6971000005;232591,3313;11,4107497000001;47,227150529
+318;Tennis Park Club Igls;Patscher Straße 21;Tennisplatz;Tennis/Squash;81633,7648;232581,485400001;11,41093363;47,2270602410001
+319;Reitarena Innsbruck-Igls;Römerstraße 50;Reithalle;Sonstiges;82900,0542000001;232657,353800001;11,4276649290001;47,22758449
+320;Volkshaus Innsbruck Sportanlage;Radetzkystraße 47;Fußballplatz;Fußball/Football;82652,2618000004;237415,8946;11,425270579;47,270409618
+321;Volkshaus Innsbruck Sportanlage;Radetzkystraße 47;Tennisplatz;Tennis/Squash;82619,1836999999;237472,753;11,424844019;47,270925102
+322;Volkshaus Innsbruck Sportanlage;Radetzkystraße 47;Tennisplatz;Tennis/Squash;82695,8685999997;237471,311100001;11,4258569670001;47,270902504
+323;Volkshaus Innsbruck Sportanlage;Radetzkystraße 47;Tennisplatz;Tennis/Squash;82679,5774999997;237500,275;11,425647064;47,271165024
+324;Volkshaus Innsbruck Sportanlage;Radetzkystraße 47;Tennisplatz;Tennis/Squash;82661,9996999996;237491,7141;11,425413233;47,2710902440001
+325;Volkshaus Innsbruck Sportanlage;Radetzkystraße 47;Tennisplatz;Tennis/Squash;82646,2887000004;237484,100400001;11,4252042430001;47,271023746
+326;Volkshaus Innsbruck Sportanlage;Radetzkystraße 47;Tennisplatz;Tennis/Squash;82696,4400000004;237509,3225;11,4258715340001;47,2712442700001
+327;Hallenbad Olympisches Dorf;Kugelfangweg 46;Hallenbad;Schwimmen;84296,9119999995;237332,3182;11,446984774;47,269449412
+328;Spielplatz SOS - Kinderdorf;Hermann-Gmeiner-Straße 51;Sportplatz;Spielplatz;84270,6040000003;236329,305299999;11,446448543;47,260432682
+329;Skigebiet Nordpark;Höhenstraße 145;Skigebiet;Wintersport;79145,9625000004;241504,1676;11,379665803;47,3076071070001
+330;Sportanlage BHAK/BHAS Innsbruck;Karl-Schönherr-Straße 2;Sportplatz;Spielplatz;80762,4857000001;238023,2985;11,400411154;47,276106687
+331;Sportkegelbahn VS Fischerstraße;Franz-Fischer-Straße 38;Kegelbahn;Sporthalle;79949,8711000001;236080,226299999;11,389326458;47,2587315390001
+332;Sporthalle VS Fischerstraße;Franz-Fischer-Straße 38;Sporthalle;Sporthalle;79940,8344999999;236095,590600001;11,3892098260001;47,2588708100001
+333;Sportanlage Wiesengasse;Wiesengasse 60;Fußballplatz;Fußball/Football;81844,3074000003;235695,304199999;11,414281177;47,2550371390001
+334;Sportanlage Wiesengasse;Wiesengasse 60;Fußballplatz;Fußball/Football;81914,4568999996;235713,827400001;11,4152111510001;47,255194998
+335;Sportanlage Wiesengasse;Wiesengasse 60;Fußballplatz;Fußball/Football;81988,0676999995;235729,1106;11,416186258;47,2553232810001
+336;Freibad Tivoli;Purtschellerstraße 1;Beachvolleyballplatz;Funsport;81330,5389999999;236208,1305;11,407587947;47,2597127080001
+337;Freibad Tivoli;Purtschellerstraße 1;Beachvolleyballplatz;Funsport;81327,2931000004;236221,8312;11,4075475550001;47,2598363210001
+338;Spielplatz Lodenareal;Lodenareal;Sportplatz;Spielplatz;82199,1442;238146,0767;11,419417733;47,2770329460001
+339;Spielplatz Kirchmayrgasse;Kirchmayrgasse;Sportplatz;Spielplatz;83143,0422999999;236246,5416;11,4315380570001;47,259831751
+340;Sporthalle VS Innere Stadt;Angerzellgasse 12;Sporthalle;Sporthalle;80449,9622999998;237130,465399999;11,396121088;47,2681155930001
+341;Sporthalle SPZ Schule am Inn;Hutterweg 1a;Sporthalle;Sporthalle;79376,9293999998;236724,2096;11,3818720370001;47,2645923260001
+342;Sporthalle BRG in der Au;Bachlechnerstraße 35;Sporthalle;Sporthalle;78775,2757999999;236664,341499999;11,37391287;47,2641261850001

@@ -115,7 +115,13 @@ async function loadStations() {
         [161, "#7677E1"]
 
     ]
-
+        (feature.properties.WR) {
+            let color = windPalette[ windPalette.length - 1][1];
+            for (let i = 0; i < windPalette.length; i++) {
+                //console.log(feature.properties.WG)
+                if (feature.properties.WG < windPalette [i][0])
+            }
+        }
 
     L.geoJson(stations, {
         pointToLayer: function (feature, latlng) {

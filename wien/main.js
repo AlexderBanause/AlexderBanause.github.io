@@ -145,9 +145,77 @@ async function loadWege(wegeUrl) {
         onEachFeature: linienPopup
     });
     karte.addLayer(wegeJson);
-    layerControl.addOverlay(wegeJson, "Spazierwege");
+    layerControl.addOverlay(wegeJson, "WLAN Standorte");
     
 }
 
+const wlan = 'https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:WLANWIENATOGD&srsName=EPSG:4326&outputFormat=json'
+
+function makewlanMarker(feature, latlng) { 
+    const fotosymbol = L.icon({ 
+        iconUrl: 'http://www.data.wien.gv.at/icons/wlanwienatogd.png',
+        iconSize: [34, 34]
+    });
+
+    const wlanmarker = L.marker(latlng, { 
+        icon: fotosymbol 
+    });
+
+
+    wlanmarker.bindPopup(`
+ <h3>${feature.properties.NAME}</h3> 
+<h4>${feature.properties.ADRESSE}</h4>
+<footer><a href="${feature.properties.WEITERE_INFORMATIONEN}" target="_blan">Weitere Informationen</a></footer>
+ `)
+
+    return wlanmarker;
+}
+
+async function loadWlan(urlsight) { 
+    const wlanclusterGruppe = L.markerClusterGroup(); 
+    const response = await fetch(urlsight); 
+    const wlanData = await response.json(); 
+    const geoJson = L.geoJson(wlanData, { 
+        pointToLayer: makewlanMarker 
+    });
+    wlanclusterGruppe.addLayer(geoJson);
+    karte.addLayer(wlanclusterGruppe);
+    layerControl.addOverlay(wlanclusterGruppe, "Wlan-Punkte")
+
+    const suchFeld = new L.Control.Search({
+        layer: wlanclusterGruppe,
+        propertyName: "NAME",
+        zoom: 17,
+        initial: false,
+    });
+    karte.addControl(suchFeld);
+}
+
+loadWlan(wlan);
+
+/*function linienPopup(feature, layer) {
+    console.log(feature);
+    const popup = `
+    <h3>${feature.properties.NAME}</h3>
+    <p><a href="${feature.properties.WEITERE_INF}">Weblink</a></p>
+    `;
+    layer.bindPopup(popup);
+}
+
+async function loadWege(wegeUrl) {
+    const antwort = await fetch(wegeUrl);
+    const wegeData = await antwort.json();
+    console.log(wegeData);
+    const wegeJson = L.geoJson (wegeData, {
+        style: function() {
+            return {
+                color: "green"
+            };
+        },
+        onEachFeature: linienPopup
+    });
+    karte.addLayer(wegeJson);
+    layerControl.addOverlay(wegeJson, "Spazierwege");
+}*/
 loadWege(wege);
 

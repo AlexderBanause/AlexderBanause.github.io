@@ -115,7 +115,7 @@ async function loadSights(url) {
 
 
     const massstab = L.control.scale({
-        imperial: true,  // keine Variable, kommt von der Dokumentation
+        imperial: true, 
         metric: false
     });
     karte.addControl(massstab);
@@ -139,7 +139,7 @@ async function loadWege(wegeUrl) {
     const wegeJson = L.geoJson (wegeData, {
         style: function() {
             return {
-                color: "green"
+                color: "blue"
             };
         },
         onEachFeature: linienPopup
@@ -151,7 +151,7 @@ async function loadWege(wegeUrl) {
 
 const wlan = 'https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:WLANWIENATOGD&srsName=EPSG:4326&outputFormat=json'
 
-function makewlanMarker(feature, latlng) { 
+function wlanspot(feature, latlng) { 
     const fotosymbol = L.icon({ 
         iconUrl: 'http://www.data.wien.gv.at/icons/wlanwienatogd.png',
         iconSize: [34, 34]
@@ -165,18 +165,18 @@ function makewlanMarker(feature, latlng) {
     wlanmarker.bindPopup(`
  <h3>${feature.properties.NAME}</h3> 
 <h4>${feature.properties.ADRESSE}</h4>
-<footer><a href="${feature.properties.WEITERE_INFORMATIONEN}" target="_blan">Weitere Informationen</a></footer>
+<footer><a href="${feature.properties.WEITERE_INFORMATIONEN}" target="_blank">Weitere Informationen</a></footer>
  `)
 
     return wlanmarker;
 }
 
-async function loadWlan(urlsight) { 
+async function ladeWlan(urlsight) { 
     const wlanclusterGruppe = L.markerClusterGroup(); 
     const response = await fetch(urlsight); 
     const wlanData = await response.json(); 
     const geoJson = L.geoJson(wlanData, { 
-        pointToLayer: makewlanMarker 
+        pointToLayer: wlanspot 
     });
     wlanclusterGruppe.addLayer(geoJson);
     karte.addLayer(wlanclusterGruppe);
@@ -191,7 +191,7 @@ async function loadWlan(urlsight) {
     karte.addControl(suchFeld);
 }
 
-loadWlan(wlan);
+ladeWlan(wlan);
 
 /*function linienPopup(feature, layer) {
     console.log(feature);

@@ -21,6 +21,10 @@
 
     <link href="plugins/Control.Coordinates.css" rel="stylesheet">
     <script src="plugins/Control.Coordinates.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js"></script>
+    <script src="https://unpkg.com/d3@4.13.0/build/d3.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@raruto/leaflet-elevation@latest/leaflet-elevation.css" />
+    <script src="https://unpkg.com/@raruto/leaflet-elevation@latest/leaflet-elevation.js"></script>
 
     <script defer src="main.js"></script>
     <!-- "defer" einfügen, da sonst das Div vor dem anderen gelesen wird und der Browser dann den Rest nicht mehr versteht-->
@@ -84,6 +88,7 @@
         </div>
         <!-- TODO: ein div-Element mit dem id-Attribut "map" und drei weiteren Attributen data-lat, data-lng und data-title. Die Koordinaten von data-lat und data-lng sind als Dezimalgrad mit einem "." als Komma zu schreiben und aus der Wikipedia zu entnehmen. Das data-title Attribut enthält einen Titel für die oben verwendete Sehenswürdigkeit
         -->
+        <div id="elevation-div"></div>
 
         <h3>Links</h3>
         <ul>
@@ -95,6 +100,7 @@
                     href="https://www.tirol.at/reisefuehrer/sport/wandern/wandertouren/a-adlerweg-etappe-o2-johannishuette-eisseehuette">Adlerweg
                     - Etappe 02</a></li>
         </ul>
+
         <!-- TODO: 4 Links zu Seiten im Netz die zur Etappe/Sehenswürdigkeit passen als ungeordnete Liste -->
 
     </main>

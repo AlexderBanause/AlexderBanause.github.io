@@ -135,7 +135,63 @@ karte.addControl(new L.Control.Fullscreen());
 var hash = new L.Hash(karte);
 var coords = new L.Control.Coordinates();
 coords.addTo(karte);
-karte.on('click', function(e){
-console.log(e);
+karte.on('click', function (e) {
+    console.log(e);
     coords.setCoordinates(e);
 });
+
+// gpx track laden
+new L.GPX("AdlerwegEtappeO2.gpx", {
+    async: true,
+    marker_options: {
+        startIconUrl: 'images/pin-icon-start.png',
+        endIconUrl: 'images/pin-icon-end.png',
+        shadowUrl: 'images/pin-shadow.png'
+    }
+}).on('loaded', function (e) {
+    karte.fitBounds(e.target.getBounds());
+}).on('addline', function (e) {
+    console.log('linie geladen');
+    const controlElevation = L.control.elevation({
+        detachedView: true, /// bringt grafik aus der Karte raus
+        elevationDiv: "#elevation-div",
+    });
+    controlElevation.addTo(karte)
+    controlElevation.addData(e.line)
+    const gpxLinie = e.line.getLatLngs(); /// getLatLngs is funktion aus gpx, dass einträge holt
+    console.log(gpxLinie);
+    for (let i = 1; i < gpxLinie.length; i += 1) {
+        //console.log(gpxLinie[i]);
+        let p1 = gpxLinie[i - 1];
+        let p2 = gpxLinie[i];
+        let dist = karte.distance(
+            [p1.lat, p1.lng],
+            [p2.lat, p2.lng]
+        );
+        let delta = (p2.meta.ele - p1.meta.ele);
+        let proz = (dist != 0 ? delta / dist * 100.0 : 0).toFixed(1);
+        console.log('Distanz:', dist, 'Höhendifferenz:', delta, 'Steigung:', proz);
+        let farbe = /// aus http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
+            proz >= 10 ? "#d73027" :
+            proz >= 6 ? "#fc8d59" :
+            proz >= 2 ? "#fee08b" :
+            proz >= 0 ? "#ffffbf" :
+            proz >= -6 ? "#d9ef8b" :
+            proz >= -10 ? "#91cf60" :
+                        "#1a9850";
+        L.polyline(
+            [
+                [p1.lat, p1.lng],
+                [p2.lat, p2.lng],
+            ], {
+                color: farbe
+            }
+        ).addTo(karte);
+
+    }
+
+})
+
+//var controlElevation = L.control.elevation({
+
+//}).addTo(karte);

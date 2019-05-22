@@ -67,6 +67,56 @@ kartenLayer.bmapgrau.addTo(karte);
 
 karte.addControl(new L.Control.Fullscreen());
 
+const wikipediaGruppe = L.featureGroup().addTo(karte);
+layerControl.addOverlay(wikipediaGruppe, "Wikipedia Artikel");
+async function wikipediaArtikelLaden(url) {
+    wikipediaGruppe.clearLayers();
+    console.log("Lade", url);
+
+    const antwort = await fetch(url);
+    const jsonDaten = await antwort.json();
+
+    console.log(jsonDaten);
+    for (let artikel of jsonDaten.geonames) {
+        const wikipediaMarker = L.marker([artikel.lat, artikel.lng], {
+            icon: L.icon({
+                iconUrl: "icons/wikipedia_icon2.png",
+                iconSize: [32, 32]
+            })
+        }).addTo(wikipediaGruppe);
+
+        wikipediaMarker.bindPopup(`
+        <h3>${artikel.title}</h3>
+        <p>${artikel.summary}</p>
+        <hr>
+        <footer><a target="_blank" href="https://${artikel.wikipediaUrl}">Weblink</a></footer>
+        `);
+    }
+
+}
+let letzteGeonamesUrl =null;
+//
+karte.on("load zoomend moveend", function () { //zoomend und moveend: wenn ich Ausschnitt verschiebe weden automatisch neue Artikel geladen
+    console.log("Karte geladen", karte.getBounds());
+
+    let ausschnitt = {
+        n: karte.getBounds().getNorth(),
+        s: karte.getBounds().getSouth(),
+        o: karte.getBounds().getEast(),
+        w: karte.getBounds().getWest(),
+    }
+    console.log(ausschnitt);
+    const geonamesUrl = `http://api.geonames.org/wikipediaBoundingBoxJSON?formatted=true&north=${ausschnitt.n}&south=${ausschnitt.s}&east=${ausschnitt.o}&west=${ausschnitt.w}&username=webmapping&style=full&maxRows=5&lang=de`; // 5 für max 5 artikel, lang=de --> deutsche Artikel
+
+    if (geonamesUrl != letzteGeonamesUrl){
+        //JSON Artikel laden
+    wikipediaArtikelLaden(geonamesUrl);
+    letzteGeonamesUrl = geonamesUrl;
+    }
+
+});
+// Json-Artikel laden
+
 karte.setView([48.208333, 16.373056], 12);
 
 
@@ -77,12 +127,12 @@ const url = 'https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&ve
 
 function makeMarker(feature, latlng) {
     const fotoIcon = L.icon({
-            iconUrl: 'http://www.data.wien.gv.at/icons/sehenswuerdigogd.png',
-            iconSize: [23, 23]
-        });
-        const sightMarker = L.marker(latlng, {
-            // L. --> Leaflat bibliothek
-            icon: fotoIcon
+        iconUrl: 'http://www.data.wien.gv.at/icons/sehenswuerdigogd.png',
+        iconSize: [23, 23]
+    });
+    const sightMarker = L.marker(latlng, {
+        // L. --> Leaflat bibliothek
+        icon: fotoIcon
     });
     sightMarker.bindPopup(`
         <h3>${feature.properties.NAME}</h3>
@@ -90,7 +140,7 @@ function makeMarker(feature, latlng) {
         <hr>
         <footer><a target= "blank" href="${feature.properties.WEITERE_INF}">Weblink</a></footer>
 `);
-return sightMarker;
+    return sightMarker;
 }
 
 
@@ -115,13 +165,13 @@ async function loadSights(url) {
 
 
     const massstab = L.control.scale({
-        imperial: true, 
+        imperial: true,
         metric: false
     });
     karte.addControl(massstab);
 }
 
-const wege = 'https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:SPAZIERLINIEOGD &srsName=EPSG:4326&outputFormat=json'
+/*const wege = 'https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:SPAZIERLINIEOGD &srsName=EPSG:4326&outputFormat=json'
 
 function linienPopup(feature, layer) {
     console.log(feature);
@@ -147,18 +197,18 @@ async function loadWege(wegeUrl) {
     karte.addLayer(wegeJson);
     layerControl.addOverlay(wegeJson, "WLAN Standorte");
     
-}
+}*/
 
 const wlan = 'https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:WLANWIENATOGD&srsName=EPSG:4326&outputFormat=json'
 
-function wlanspot(feature, latlng) { 
-    const fotosymbol = L.icon({ 
+function wlanspot(feature, latlng) {
+    const fotosymbol = L.icon({
         iconUrl: 'http://www.data.wien.gv.at/icons/wlanwienatogd.png',
         iconSize: [34, 34]
     });
 
-    const wlanmarker = L.marker(latlng, { 
-        icon: fotosymbol 
+    const wlanmarker = L.marker(latlng, {
+        icon: fotosymbol
     });
 
 
@@ -171,12 +221,12 @@ function wlanspot(feature, latlng) {
     return wlanmarker;
 }
 
-async function ladeWlan(urlsight) { 
-    const wlanclusterGruppe = L.markerClusterGroup(); 
-    const response = await fetch(urlsight); 
-    const wlanData = await response.json(); 
-    const geoJson = L.geoJson(wlanData, { 
-        pointToLayer: wlanspot 
+async function ladeWlan(urlsight) {
+    const wlanclusterGruppe = L.markerClusterGroup();
+    const response = await fetch(urlsight);
+    const wlanData = await response.json();
+    const geoJson = L.geoJson(wlanData, {
+        pointToLayer: wlanspot
     });
     wlanclusterGruppe.addLayer(geoJson);
     karte.addLayer(wlanclusterGruppe);
@@ -217,5 +267,9 @@ async function loadWege(wegeUrl) {
     karte.addLayer(wegeJson);
     layerControl.addOverlay(wegeJson, "Spazierwege");
 }*/
-loadWege(wege);
+//loadWege(wege);
 
+//
+// wikipedia artikel laden
+
+//http://api.geonames.org/wikipediaBoundingBoxJSON?formatted=true&north=44.1&south=-9.9&east=-22.4&west=55.2&username=webmapping&style=full

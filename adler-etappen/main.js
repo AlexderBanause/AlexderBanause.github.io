@@ -83,10 +83,17 @@ new L.Control.MiniMap(
 // die Implementierung der Karte startet hier
 
 let pulldown = document.getElementById("etappenPulldown");
-for (let i=0; i < ETAPPEN.length;  i++) {
+for (let i = 0; i < ETAPPEN.length; i++) {
     //console.log(ETAPPEN[i]);
     pulldown.innerHTML += `<option value="${i}">${ETAPPEN[i].titel}</option>`
 }
+
+let gpxGruppe = L.featureGroup().addTo(karte);
+layerControl.addOverlay(gpxGruppe, "GPX-Track");
+
+let controlElevation = null;
+
+
 function etappeErzeugen(nummer) {
     let daten = ETAPPEN[nummer];
     let titelText = daten.titel;
@@ -95,31 +102,65 @@ function etappeErzeugen(nummer) {
 
     document.getElementById("daten_titel").innerHTML = daten.titel;
     document.getElementById("daten_info").innerHTML = daten.info;
-    
-// GPX Track laden
+    document.getElementById("daten_strecke").innerHTML = daten.strecke;
 
-    console.log(daten.gpsid);
+    // GPX Track laden
+
     daten.gpsid = daten.gpsid.replace("A", "");
-    console.log(daten.gpsid);
-    
+    gpxGruppe.clearLayers();
     const gpxTrack = new L.GPX(`gpx/AdlerwegEtappe${daten.gpsid}.gpx`, {
-        async : true,
-        marker_options : {
-            startIconUrl : 'icons/pin-icon-start.png',
-            endIconUrl : 'icons/pin-icon-end.png',
-            shadowUrl : 'icons/pin-shadow.png',
-            iconSize: [32,37]
-    
+        async: true,
+        marker_options: {
+            startIconUrl: 'icons/pin-icon-start.png',
+            endIconUrl: 'icons/pin-icon-end.png',
+            shadowUrl: 'icons/pin-shadow.png',
+            iconSize: [32, 37]
+
         }
-    }).addTo(karte);
+    }).addTo(gpxGruppe);
+    gpxTrack.on("loaded"),
+        function () {
+            // karte.fitBounds(gpxTrack.getBounds());
+        };
+
+    gpxTrack.on("addline", function (evt) {
+        //bestehendes Profil löschen
+        if (controlElevation) {
+            controlElevation.clear();
+            document.getElementById("elevation-div").innerHTML = "";
+        }
+        //das Höhenprofil erzeugen
+        controlElevation = L.control.elevation({
+            theme: "steelblue-theme",
+            detachedView: true,
+            elevationDiv: "#elevation-div"
+        })
+        controlElevation.addTo(karte);
+        controlElevation.addData(evt.line);
+    })
 }
 etappeErzeugen(0);
 
 
 
-pulldown.onchange = function (evt){
+pulldown.onchange = function (evt) {
     let opts = evt.target.options;
     console.log(opts[opts.selectedIndex].value);
     console.log(opts[opts.selectedIndex].text);
     etappeErzeugen(opts[opts.selectedIndex].value);
 }
+
+const routingMachine = L.Routing.control({}).addTo(karte);
+let start, end;
+karte.on("click", function (ev) {
+    console.log("Clicked: ", ev.latlng);
+    if (!start) {
+        start = ev.latlng;
+} else {
+    end = ev.latlng;
+    routingMachine.setWaypoints([start, end]);
+    routingMachine.route();
+    start = null;
+}
+console.log("Start: ", start, "End: ", end);
+})

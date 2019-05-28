@@ -95,11 +95,27 @@ function etappeErzeugen(nummer) {
 
     document.getElementById("daten_titel").innerHTML = daten.titel;
     document.getElementById("daten_info").innerHTML = daten.info;
+    
+// GPX Track laden
 
-    console.log(daten);
-
+    console.log(daten.gpsid);
+    daten.gpsid = daten.gpsid.replace("A", "");
+    console.log(daten.gpsid);
+    
+    const gpxTrack = new L.GPX(`gpx/AdlerwegEtappe${daten.gpsid}.gpx`, {
+        async : true,
+        marker_options : {
+            startIconUrl : 'icons/pin-icon-start.png',
+            endIconUrl : 'icons/pin-icon-end.png',
+            shadowUrl : 'icons/pin-shadow.png',
+            iconSize: [32,37]
+    
+        }
+    }).addTo(karte);
 }
 etappeErzeugen(0);
+
+
 
 pulldown.onchange = function (evt){
     let opts = evt.target.options;
